@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `UX Philippines`,
     description: `The Philippines' largest community of individuals passionate about the realm of UX (User Experience), and all things related.`,
-    author: `@gatsbyjs`,
+    author: `@uxphofficial`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

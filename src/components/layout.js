@@ -6,6 +6,8 @@
  */
 
 import React from "react";
+import { Nav, Footer } from "./Components";
+import "../assets/sass/main.scss";
 
 const Layout = ({ children }) => {
   /*
@@ -17,7 +19,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Nav />
       <main>{children}</main>
+      <Footer />
     </>
   );
 };

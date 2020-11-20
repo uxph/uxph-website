@@ -6,6 +6,18 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <h1>Hello World!</h1>
+      <p>
+        UXPH (User Experience Philippines) is a Filipino non-profit organization
+        that hosts the largest network of design professionals, enthusiasts, and
+        students in the Philippines. Since 2012, we have been building towards a
+        more mature, collaborative, and design-driven country through hosting
+        online and offline community initiatives, conferences, and programs
+        within local design and technology communities. UXPH has become the
+        country’s hub for sharing information, resources, and building networks
+        in the design community. As of 2020, the UXPH community has over 4,000
+        local and international members from a wide range of industries related
+        to technology and even traditional businesses.
+      </p>
     </Layout>
   );
 };
