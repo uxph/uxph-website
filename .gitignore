@@ -1,0 +1,12 @@
+# default output directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+.cache
+node_modules
