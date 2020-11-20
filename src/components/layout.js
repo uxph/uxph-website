@@ -10,13 +10,6 @@ import { Nav, Footer } from "./Components";
 import "../assets/sass/main.scss";
 
 const Layout = ({ children }) => {
-  /*
-    NOTE:
-    Nav
-    main (children)
-    Footer
-  */
-
   return (
     <>
       <Nav />

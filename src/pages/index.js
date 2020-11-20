@@ -1,11 +1,18 @@
 import React from "react";
 import { Layout, SEO } from "../components/Components";
+import { mobilePhoneSize } from "../helpers/responsive";
+import { useMediaQuery } from "react-responsive";
 
 const IndexPage = () => {
+  const isMobilePhone = useMediaQuery({ query: mobilePhoneSize });
+  if (isMobilePhone) {
+    return <h2>Mobile phone</h2>;
+  }
   return (
     <Layout>
       <SEO title="Home" />
       <h1>Hello World!</h1>
+      <i class="fab fa-facebook-square"></i>
       <p>
         UXPH (User Experience Philippines) is a Filipino non-profit organization
         that hosts the largest network of design professionals, enthusiasts, and
