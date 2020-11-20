@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { Helmet } from "react-helmet";
+import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, title }) {
+const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -23,10 +23,10 @@ function SEO({ description, lang, meta, title }) {
         }
       }
     `
-  )
+  );
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription = description || site.siteMetadata.description;
+  const defaultTitle = site.siteMetadata?.title;
 
   return (
     <Helmet
@@ -34,8 +34,19 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={defaultTitle ? `%s - ${defaultTitle}` : null}
       meta={[
+        {
+          charset: `UTF-8`,
+        },
+        {
+          name: `viewport`,
+          content: `width=device-width, initial-scale=1.0`,
+        },
+        {
+          name: `fb:page_id`,
+          content: `314394185432326`,
+        },
         {
           name: `description`,
           content: metaDescription,
@@ -43,6 +54,22 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:site_name`,
+          content: site.siteMetadata.title,
+        },
+        {
+          property: `og:url`,
+          content: `https://uxph.org/`,
+        },
+        {
+          property: `og:image`,
+          content: `https://uxph.org/assets/images/og-cover.png`,
+        },
+        {
+          property: `og:image:secure_url`,
+          content: `https://uxph.org/assets/images/og-cover.png`,
         },
         {
           property: `og:description`,
@@ -54,11 +81,19 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://uxph.org/assets/images/og-cover.png`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:site`,
+          content: site.siteMetadata.author,
         },
         {
           name: `twitter:title`,
@@ -68,22 +103,37 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          developer: `Mike Jaren Yap`,
+          site: `https://mjarenyap.github.io`,
+        },
+        {
+          developer: `Tyrone Justin Sta. Maria`,
+          site: `https://tyronegithub.github.io`,
+        },
+        {
+          developer: `Gavin Raine Dizon`,
+          site: `https://gavindizon.github.io`,
+        },
+        {
+          developer: `Nikka Herrera`,
+        },
       ].concat(meta)}
     />
-  )
-}
+  );
+};
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-}
+};
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-}
+};
 
-export default SEO
+export default SEO;
