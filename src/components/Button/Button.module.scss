@@ -1,0 +1,27 @@
+@import "../../assets/sass/variables.scss";
+
+.button {
+  background-color: $brand-color !important;
+  color: $adaptive-white !important;
+  border: 2px solid $brand-color !important;
+  text-transform: none !important;
+  padding: 0.4rem 1.5rem !important;
+  transition: ease all 0.3s !important;
+
+  &:hover {
+    background-color: $brand-active-color !important;
+    border-color: $brand-active-color !important;
+    transform: scale(0.95) !important;
+  }
+
+  &.outlined {
+    background-color: transparent !important;
+    color: $brand-color !important;
+    border: 2px solid $brand-color !important;
+
+    &:hover {
+      border-color: $brand-active-color !important;
+      color: $brand-active-color !important;
+    }
+  }
+}

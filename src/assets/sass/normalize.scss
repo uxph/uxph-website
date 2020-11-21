@@ -9,6 +9,7 @@ h4,
 h5,
 h6 {
   font-family: $heading-font;
+  color: $primary-active-color;
 }
 
 h1,
@@ -18,7 +19,6 @@ h4,
 h5,
 h6,
 p {
-  color: $primary-color;
   margin: 0;
   padding: 0;
 }
@@ -42,6 +42,7 @@ h4 {
 p {
   font-size: 1rem;
   line-height: 1.875rem;
+  color: $primary-color;
 }
 
 i {
