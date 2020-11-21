@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "fab fa-facebook-square",
+    "name": "Facebook",
+    "url": "https://www.facebook.com/uxphofficial/",
+    "urlLabel": "/uxphofficial"
+  },
+  {
+    "icon": "fab fa-facebook-square",
+    "name": "Facebook Group",
+    "url": "https://www.facebook.com/groups/uxphofficial/",
+    "urlLabel": "/groups/uxphofficial"
+  },
+  {
+    "icon": "fab fa-linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/company/uxph/",
+    "urlLabel": "/company/uxphofficial"
+  },
+  {
+    "icon": "fab fa-instagram",
+    "name": "Instagram",
+    "url": "https://instagram.com/uxphofficial",
+    "urlLabel": "/uxphofficial"
+  },
+  {
+    "icon": "fab fa-twitter",
+    "name": "Twitter",
+    "url": "https://twitter.com/uxphofficial",
+    "urlLabel": "/uxphofficial"
+  },
+  {
+    "icon": "fas fa-envelope",
+    "name": "Contact us",
+    "url": "mailto:info@uxph.org",
+    "urlLabel": "info@uxph.org"
+  }
+]

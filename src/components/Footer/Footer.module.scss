@@ -1,0 +1,15 @@
+@import "../../assets/sass/variables.scss";
+
+#footer {
+  background-color: $adaptive-dark2;
+  color: $adaptive-white !important;
+
+  .netlify_link {
+    transition: ease all 0.3s;
+
+    &:hover {
+      color: $brand-color !important;
+      text-decoration: underline;
+    }
+  }
+}

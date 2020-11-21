@@ -1,0 +1,27 @@
+@import "../../assets/sass/variables.scss";
+
+.social_media_item {
+  margin-bottom: 2rem;
+
+  .icon {
+    font-size: 1.5rem;
+    color: $adaptive-white;
+  }
+
+  .name {
+    color: $adaptive-white;
+  }
+
+  .url {
+    font-size: 0.875rem;
+    display: inline-block;
+    word-wrap: break-word;
+    color: $brand-color;
+    transition: ease all 0.3s;
+    font-weight: normal !important;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

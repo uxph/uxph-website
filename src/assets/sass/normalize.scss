@@ -2,6 +2,15 @@
   font-family: $body-font;
 }
 
+html,
+body {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box !important;
+}
+
 h1,
 h2,
 h3,
@@ -52,10 +61,11 @@ i {
 a {
   text-decoration: none;
   color: $brand-color;
-}
+  transition: ease all 0.3s;
 
-a:hover {
-  color: $brand-active-color;
+  &:hover {
+    color: $brand-active-color;
+  }
 }
 
 ul,
