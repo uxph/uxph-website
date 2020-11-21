@@ -25,6 +25,11 @@ const IndexPage = () => {
         to technology and even traditional businesses.
         <i className="fab fa-facebook-square"></i>
       </p>
+      <div
+        style={{
+          height: "2000px",
+        }}
+      ></div>
       <Button variant="outlined">About UXPH</Button>
       <Button variant="contained">About UXPH</Button>
     </Layout>

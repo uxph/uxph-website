@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import { Nav, Footer } from "./Components";
+import { Nav, Footer, BackToTop } from "./Components";
 import "../assets/sass/main.scss";
 
 const Layout = ({ children }) => {
@@ -15,6 +15,7 @@ const Layout = ({ children }) => {
       <Nav />
       <main>{children}</main>
       <Footer />
+      <BackToTop speed={400} showAt={700} />
     </>
   );
 };

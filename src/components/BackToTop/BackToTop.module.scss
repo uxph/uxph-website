@@ -1,0 +1,31 @@
+@import "../../assets/sass/variables.scss";
+
+.back_to_top {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  background-color: $brand-color;
+  bottom: 19pt;
+  right: 72pt;
+  cursor: pointer;
+  overflow: hidden;
+  transition: ease all 0.3s;
+  z-index: 9999;
+
+  &.hide {
+    right: -72pt !important;
+  }
+
+  &:hover {
+    background-color: $brand-active-color;
+  }
+
+  i.arrow_icon {
+    color: $adaptive-white;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+  }
+}
