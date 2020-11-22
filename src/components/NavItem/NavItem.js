@@ -45,7 +45,7 @@ const NavItem = ({ nav, active }) => {
                   py={2}
                   className={classNames(
                     styles["sub_nav_item"],
-                    "border-radius-8"
+                    "border-radius-4"
                   )}
                 >
                   <a href={subNavItem.url} key={index}>

@@ -15,12 +15,12 @@
       {
         "label": "About UXPH",
         "url": "/about",
-        "subLabel": "Learn more about the organization"
+        "subLabel": "Learn more about the largest UX Design community in the Philippines."
       },
       {
         "label": "Organizing Members",
         "url": "/organizing-members",
-        "subLabel": "Meet the team behind the scenes"
+        "subLabel": "Get to know the amazing people behind the scenes!"
       }
     ]
   },
@@ -40,12 +40,12 @@
       {
         "label": "Be a partner",
         "url": "/sponsorships",
-        "subLabel": "We're always interested in partnership opportunities of any sort!"
+        "subLabel": "Explore all sorts of interesting partnership opportunities with us!"
       },
       {
         "label": "Be a volunteer",
         "url": "/volunteers",
-        "subLabel": "Whether you're a professional, student, or simply a design enthusiast, we're happy to have you join us!"
+        "subLabel": "Volunteer with us and be part of the community!"
       }
     ]
   },
@@ -65,7 +65,7 @@
       {
         "label": "UXPH Research",
         "url": "/research",
-        "subLabel": "We're conducting studies to further understand the UX Design landscape within the Philippines."
+        "subLabel": "Browse through our studies about understanding the UX Design landscape within the Philippines."
       },
       {
         "label": "Research Team",
