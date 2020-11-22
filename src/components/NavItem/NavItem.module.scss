@@ -1,0 +1,94 @@
+@import "../../assets/sass/variables.scss";
+
+.nav_item {
+  list-style-type: none !important;
+  display: inline-block !important;
+  border-bottom: 2px solid transparent;
+  background-color: transparent;
+  transition: ease all 0.3s;
+  position: relative;
+
+  &.active {
+    border-bottom-color: $brand-color !important;
+    background-color: $adaptive-white2 !important;
+
+    * {
+      color: $brand-color !important;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 0%;
+    opacity: 0.2;
+    background-color: $brand-color;
+    height: 2px;
+    transition: ease all 0.5s;
+  }
+
+  &:hover::after {
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    transition: ease all 0.2s;
+  }
+
+  &:hover {
+    background-color: $adaptive-white2;
+    cursor: pointer;
+
+    * {
+      color: $brand-color;
+    }
+
+    .sub_nav {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  a {
+    color: $primary-color;
+
+    &:hover {
+      color: $brand-color;
+    }
+  }
+
+  .sub_nav {
+    position: absolute;
+    width: 16rem;
+    padding-top: 1rem;
+    opacity: 0;
+    transform: scale(0);
+    transition: ease all 0.2s;
+    transition-delay: 0.2s;
+
+    .sub_nav_container {
+      box-shadow: 0px 2px 11px $secondary-shadow-color;
+      background-color: $adaptive-white;
+      padding: 0.5rem;
+      overflow: hidden;
+
+      .sub_nav_item {
+        transition: ease all 0.3s;
+
+        &:hover {
+          background-color: $adaptive-white3;
+        }
+
+        p {
+          color: $primary-color !important;
+          margin-bottom: 0.1rem;
+        }
+
+        small {
+          line-height: 1.3rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "../../assets/sass/variables.scss";
+
+.navigation {
+  box-shadow: 0px 2px 11px $secondary-shadow-color;
+
+  .nav_items {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}

@@ -6,7 +6,7 @@ import { Container, Box } from "@material-ui/core";
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout active="/">
       <SEO title="Home" />
       <Box component="section" py={12}>
         <Container maxWidth="md">
