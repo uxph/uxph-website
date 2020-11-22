@@ -123,7 +123,7 @@ const SEO = ({ description, lang, meta, title }) => {
             site: `https://gavindizon.github.io`,
           },
           {
-            developer: `Nikka Herrera`,
+            developer: `Ma. Nikka Herrera`,
           },
         ].concat(meta)}
       />

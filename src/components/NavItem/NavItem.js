@@ -47,6 +47,7 @@ const NavItem = ({ nav, active }) => {
                     styles["sub_nav_item"],
                     "border-radius-4"
                   )}
+                  key={index}
                 >
                   <a href={subNavItem.url} key={index}>
                     <p>{subNavItem.label}</p>

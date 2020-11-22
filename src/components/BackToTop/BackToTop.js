@@ -29,6 +29,7 @@ const BackToTop = ({ showAt = 700, speed = 400 }) => {
 
     // eslint-disable-next-line
   }, []);
+
   return (
     <Box
       id="back-to-top"
