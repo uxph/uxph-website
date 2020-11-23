@@ -1,0 +1,9 @@
+@import "../../assets/sass/variables.scss";
+
+.suspense_card {
+  border-radius: 0.875rem;
+  box-shadow: 0px 2px 11px $secondary-shadow-color;
+  background-color: $adaptive-white;
+  position: relative;
+  z-index: 100;
+}

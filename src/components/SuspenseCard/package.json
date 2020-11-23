@@ -1,0 +1,6 @@
+{
+  "name": "SuspenseCard",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SuspenseCard.js"
+}

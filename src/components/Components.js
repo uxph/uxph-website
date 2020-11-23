@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Button from "./Button";
 import BackToTop from "./BackToTop";
 import SocialMediaItem from "./SocialMediaItem";
+import SuspenseCard from "./SuspenseCard";
 
 export {
   Layout,
@@ -16,4 +17,5 @@ export {
   BackToTop,
   SocialMediaItem,
   NavItem,
+  SuspenseCard,
 };
