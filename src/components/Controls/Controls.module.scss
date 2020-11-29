@@ -13,7 +13,7 @@
 
   &.disabled {
     background-color: $secondary-shadow-color !important;
-    color: $secondary-color !important;
+    color: $primary-shadow-color !important;
 
     &:hover {
       transform: scale(1);
