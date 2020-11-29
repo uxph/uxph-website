@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, SEO, Button, Card } from "../components/Components";
+import { Layout, SEO, Button, Card, Controls } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
 import { CheckCircle } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
@@ -51,7 +51,10 @@ const IndexPage = () => {
       <Box component="section" pb={12}>
         <Container maxWidth="md">
           <h2 className="margin-bottom-8">Our Events</h2>
-          <p className="text-gray">This section is coming soon!</p>
+          <p className="text-gray margin-bottom-16">
+            This section is coming soon!
+          </p>
+          <Controls />
         </Container>
       </Box>
       <Box component="section" py={12} className="bg-light">

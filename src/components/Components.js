@@ -7,6 +7,7 @@ import Button from "./Button";
 import BackToTop from "./BackToTop";
 import SocialMediaItem from "./SocialMediaItem";
 import Card from "./Card";
+import Controls from "./Controls";
 
 export {
   Layout,
@@ -18,4 +19,5 @@ export {
   SocialMediaItem,
   NavItem,
   Card,
+  Controls,
 };

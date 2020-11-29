@@ -1,0 +1,30 @@
+@import "../../assets/sass/variables.scss";
+
+.control {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background-color: $brand-shadow-color !important;
+  border: none;
+  transition: ease all 0.3s;
+  cursor: pointer;
+  color: $brand-color !important;
+  outline: none;
+
+  &.disabled {
+    background-color: $secondary-shadow-color !important;
+    color: $secondary-color !important;
+
+    &:hover {
+      transform: scale(1);
+    }
+  }
+
+  &:hover {
+    transform: scale(0.9);
+  }
+
+  .arrow {
+    vertical-align: middle !important;
+  }
+}
