@@ -86,7 +86,7 @@ const Nav = ({ active }) => {
                       <Box component="div" ml={2}>
                         {item.subNav.map((subNavItem, subIndex) => {
                           return (
-                            <Box component="div" py={1}>
+                            <Box component="div" py={1} key={subIndex}>
                               <a href={subNavItem.url} key={subIndex}>
                                 <p className="text-white">
                                   <strong>{subNavItem.label}</strong>

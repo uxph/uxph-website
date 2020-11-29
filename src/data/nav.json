@@ -38,14 +38,14 @@
     "direction": "left",
     "subNav": [
       {
-        "label": "Be a partner",
-        "url": "/sponsorships",
-        "subLabel": "Explore all sorts of interesting partnership opportunities with us!"
-      },
-      {
         "label": "Be a volunteer",
         "url": "/volunteers",
         "subLabel": "Volunteer with us and be part of the community!"
+      },
+      {
+        "label": "Be a partner",
+        "url": "/sponsorships",
+        "subLabel": "Explore all sorts of interesting partnership opportunities with us!"
       }
     ]
   },
