@@ -79,3 +79,16 @@ ol {
     line-height: 1.875rem;
   }
 }
+
+blockquote {
+  max-width: 33.5rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: $brand-color;
+  border-left: 4px solid $brand-active-color;
+  padding: 1.5rem;
+  padding-left: 2rem;
+  font-family: $heading-font;
+  line-height: 2.3rem;
+}
