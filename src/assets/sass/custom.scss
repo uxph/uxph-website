@@ -10,12 +10,20 @@
   color: $success-color !important;
 }
 
+.text-dark {
+  color: $primary-color !important;
+}
+
 .text-center {
   text-align: center !important;
 }
 
 .text-right {
   text-align: right !important;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
 }
 
 .m-0 {

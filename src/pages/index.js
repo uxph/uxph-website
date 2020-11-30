@@ -1,5 +1,12 @@
 import React from "react";
-import { Layout, SEO, Button, Card, Controls } from "../components/Components";
+import {
+  Layout,
+  SEO,
+  Button,
+  Card,
+  Controls,
+  BlogItem,
+} from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
 import { CheckCircle } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
@@ -54,6 +61,7 @@ const IndexPage = () => {
           <p className="text-gray margin-bottom-16">
             This section is coming soon!
           </p>
+          <BlogItem />
           <Controls />
         </Container>
       </Box>

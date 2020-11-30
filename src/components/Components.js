@@ -8,6 +8,7 @@ import BackToTop from "./BackToTop";
 import SocialMediaItem from "./SocialMediaItem";
 import Card from "./Card";
 import Controls from "./Controls";
+import BlogItem from "./BlogItem";
 
 export {
   Layout,
@@ -20,4 +21,5 @@ export {
   NavItem,
   Card,
   Controls,
+  BlogItem,
 };
