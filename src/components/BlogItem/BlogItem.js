@@ -10,7 +10,8 @@ const BlogItem = (blog) => {
         <Grid item md={5}>
           <img
             src="https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu"
-            alt="Featured image"
+            alt="Ready, Set, Research! 3 Things You Need to Know as a Fresh UX
+            Researcher"
             className={styles["featured_image"]}
           />
         </Grid>
@@ -32,7 +33,7 @@ const BlogItem = (blog) => {
           <Box component="div" className={styles["blog_author"]}>
             <img
               src="https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu"
-              alt="Author's photo"
+              alt="Pauline Baterna"
               className={styles["profile_photo"]}
             />
             <Box component="div">
