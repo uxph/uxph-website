@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Container, Box, Grid } from "@material-ui/core";
 import { MenuRounded, CloseRounded } from "@material-ui/icons";
 import styles from "./Nav.module.scss";
@@ -12,30 +12,24 @@ import $ from "jquery";
 const Nav = ({ active }) => {
   const isBreakpoint = useMediaQuery({ query: navBreakpoint });
 
-  useEffect(() => {
-    $("#close").on("click", function () {
-      $(`.${styles["mobile_navigation"]}`).addClass(`${styles["hide"]}`);
-      $(`.${styles["close"]}`).addClass(`${styles["hide"]}`);
-    });
-
-    $("#overlay").on("click", function () {
-      $(`.${styles["mobile_navigation"]}`).addClass(`${styles["hide"]}`);
-      $(`.${styles["close"]}`).addClass(`${styles["hide"]}`);
-    });
-
-    $("#menu").on("click", function () {
-      $(`.${styles["mobile_navigation"]}`).removeClass(`${styles["hide"]}`);
-      $(`.${styles["close"]}`).removeClass(`${styles["hide"]}`);
-    });
-  }, []);
-
   return (
     <Box component="nav" className={styles["navigation"]}>
       <Container maxWidth="md">
         <Grid container alignItems="center">
           <Grid item container md={isBreakpoint ? 12 : 2} alignItems="center">
             {isBreakpoint && (
-              <MenuRounded id="menu" className={styles["menu"]} />
+              <a
+                href="/"
+                onClick={(e) => {
+                  e.preventDefault();
+                  $(`.${styles["mobile_navigation"]}`).removeClass(
+                    `${styles["hide"]}`
+                  );
+                  $(`.${styles["close"]}`).removeClass(`${styles["hide"]}`);
+                }}
+              >
+                <MenuRounded id="menu" className={styles["menu"]} />
+              </a>
             )}
             <a href="/">
               <img
@@ -62,15 +56,38 @@ const Nav = ({ active }) => {
             component="div"
             className={classNames(styles["mobile_navigation"], styles["hide"])}
           >
-            <Box
-              component="div"
-              className={styles["overlay"]}
-              id="overlay"
-            ></Box>
-            <CloseRounded
-              className={classNames(styles["close"], styles["hide"])}
-              id="close"
-            />
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                $(`.${styles["mobile_navigation"]}`).addClass(
+                  `${styles["hide"]}`
+                );
+                $(`.${styles["close"]}`).addClass(`${styles["hide"]}`);
+              }}
+            >
+              <Box
+                component="div"
+                className={styles["overlay"]}
+                id="overlay"
+              ></Box>
+            </a>
+
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                $(`.${styles["mobile_navigation"]}`).addClass(
+                  `${styles["hide"]}`
+                );
+                $(`.${styles["close"]}`).addClass(`${styles["hide"]}`);
+              }}
+            >
+              <CloseRounded
+                className={classNames(styles["close"], styles["hide"])}
+                id="close"
+              />
+            </a>
             <Box component="ul" my={10}>
               {nav_items.map((item, index) => {
                 if (item.subNav) {
