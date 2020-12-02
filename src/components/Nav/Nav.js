@@ -103,7 +103,7 @@ const Nav = ({ active }) => {
                   );
                 } else {
                   return (
-                    <a href={item.url}>
+                    <a href={item.url} key={index}>
                       <Box
                         component="li"
                         px={5}

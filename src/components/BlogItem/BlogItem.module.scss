@@ -8,7 +8,7 @@
   transition: ease all 0.3s;
 
   &:hover {
-    transform: scale(0.95);
+    transform: scale(0.98);
   }
 
   .featured_image {
@@ -17,6 +17,11 @@
     width: 100%;
     height: 16.125rem;
     max-height: 16.125rem;
+
+    &.mobile {
+      height: 14.0625rem;
+      max-height: 14.0625rem;
+    }
   }
 
   .blog_description {
