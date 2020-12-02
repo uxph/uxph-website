@@ -30,12 +30,6 @@ const SEO = ({ description, lang, meta, title }) => {
 
   return (
     <>
-      <Helmet>
-        <script
-          src="https://kit.fontawesome.com/f49443f0bc.js"
-          crossorigin="anonymous"
-        ></script>
-      </Helmet>
       <Helmet
         htmlAttributes={{
           lang,
