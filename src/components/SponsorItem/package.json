@@ -1,0 +1,6 @@
+{
+  "name": "SponsorItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SponsorItem.js"
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./BackToTop.module.scss";
 import { Box } from "@material-ui/core";
+import { ArrowUpwardRounded } from "@material-ui/icons";
 import classNames from "classnames";
 import $ from "jquery";
 
@@ -38,7 +39,7 @@ const BackToTop = ({ showAt = 700, speed = 400 }) => {
       })}
       borderRadius="50%"
     >
-      <i className={`fas fa-arrow-up ${styles["arrow_icon"]}`}></i>
+      <ArrowUpwardRounded className={styles["arrow_icon"]} />
     </Box>
   );
 };

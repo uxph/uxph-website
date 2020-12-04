@@ -93,3 +93,8 @@ blockquote {
   font-family: $heading-font;
   line-height: 2.3rem;
 }
+
+hr {
+  border: none;
+  border-bottom: thin solid $secondary-color;
+}

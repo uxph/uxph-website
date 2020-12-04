@@ -9,6 +9,10 @@ import SocialMediaItem from "./SocialMediaItem";
 import Card from "./Card";
 import Controls from "./Controls";
 import BlogItem from "./BlogItem";
+import SponsorItem from "./SponsorItem";
+import FaqItem from "./FaqItem";
+import PerkItem from "./PerkItem";
+import FeaturedItem from "./FeaturedItem";
 
 export {
   Layout,
@@ -22,4 +26,8 @@ export {
   Card,
   Controls,
   BlogItem,
+  SponsorItem,
+  FaqItem,
+  PerkItem,
+  FeaturedItem,
 };

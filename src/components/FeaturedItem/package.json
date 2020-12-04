@@ -1,0 +1,6 @@
+{
+  "name": "FeaturedItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FeaturedItem.js"
+}

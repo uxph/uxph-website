@@ -1,0 +1,26 @@
+@import "../../assets/sass/variables.scss";
+
+.sponsor_item {
+  background-color: $adaptive-white;
+  box-shadow: 0px 2px 11px $secondary-shadow-color;
+  height: 6.875rem;
+  max-height: 6.875rem;
+  max-width: 12.5rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: ease all 0.3s;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  .sponsor_image {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

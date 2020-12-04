@@ -20,12 +20,12 @@
     background-color: $brand-active-color;
   }
 
-  i.arrow_icon {
+  .arrow_icon {
     color: $adaptive-white;
-    font-size: 1.3rem;
+    font-size: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-52%, -52%);
   }
 }
