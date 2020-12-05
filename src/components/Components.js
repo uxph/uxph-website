@@ -13,6 +13,7 @@ import SponsorItem from "./SponsorItem";
 import FaqItem from "./FaqItem";
 import PerkItem from "./PerkItem";
 import FeaturedItem from "./FeaturedItem";
+import MaterialIcon from "./MaterialIcon";
 
 export {
   Layout,
@@ -30,4 +31,5 @@ export {
   FaqItem,
   PerkItem,
   FeaturedItem,
+  MaterialIcon,
 };
