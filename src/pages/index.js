@@ -6,6 +6,7 @@ import {
   Card,
   Controls,
   BlogItem,
+  Header,
 } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
 import { CheckCircle } from "@material-ui/icons";
@@ -31,6 +32,9 @@ const IndexPage = () => {
   return (
     <Layout active="/">
       <SEO title="Home" />
+      <Header>
+        <h1 className="text-white text-center">UXPH</h1>
+      </Header>
       <Box component="section" py={12}>
         <Container maxWidth="md">
           <h2 className="margin-bottom-24 font-size-32">About UXPH</h2>
@@ -55,9 +59,9 @@ const IndexPage = () => {
           </Button>
         </Container>
       </Box>
-      <Box component="section" pb={12}>
+      <Box component="section" py={12} className="bg-light-1">
         <Container maxWidth="md">
-          <h2 className="margin-bottom-8">Our Events</h2>
+          <h2 className="margin-bottom-8 font-size-32">Our Events</h2>
           <p className="text-gray margin-bottom-16">
             This section is coming soon!
           </p>
@@ -65,7 +69,7 @@ const IndexPage = () => {
           <Controls />
         </Container>
       </Box>
-      <Box component="section" py={12} className="bg-light">
+      <Box component="section" py={12}>
         <Container maxWidth="md">
           <Grid container spacing={4} alignItems="center">
             <Grid item md={5} sm={6}>

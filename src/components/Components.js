@@ -14,6 +14,7 @@ import FaqItem from "./FaqItem";
 import PerkItem from "./PerkItem";
 import FeaturedItem from "./FeaturedItem";
 import MaterialIcon from "./MaterialIcon";
+import Header from "./Header";
 
 export {
   Layout,
@@ -32,4 +33,5 @@ export {
   PerkItem,
   FeaturedItem,
   MaterialIcon,
+  Header,
 };
