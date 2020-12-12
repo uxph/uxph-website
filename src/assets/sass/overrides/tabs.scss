@@ -1,0 +1,22 @@
+.tabs-container {
+  position: sticky;
+  top: 100px;
+
+  .tab-item {
+    .MuiTab-wrapper {
+      display: block;
+      text-align: left;
+      font-family: $body-font;
+    }
+
+    &.active {
+      .MuiTab-wrapper {
+        color: $brand-color;
+      }
+    }
+  }
+
+  .PrivateTabIndicator-colorSecondary-25 {
+    background-color: $brand-color;
+  }
+}
