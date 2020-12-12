@@ -15,6 +15,8 @@ import PerkItem from "./PerkItem";
 import FeaturedItem from "./FeaturedItem";
 import MaterialIcon from "./MaterialIcon";
 import Header from "./Header";
+import HostEventItem from "./HostEventItem";
+import TeamItem from "./TeamItem";
 
 export {
   Layout,
@@ -34,4 +36,6 @@ export {
   FeaturedItem,
   MaterialIcon,
   Header,
+  HostEventItem,
+  TeamItem,
 };
