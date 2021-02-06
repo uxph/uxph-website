@@ -17,6 +17,7 @@ import MaterialIcon from "./MaterialIcon";
 import Header from "./Header";
 import HostEventItem from "./HostEventItem";
 import TeamItem from "./TeamItem";
+import MissionVissionItem from "./MissionVissionItem/MissionVissionItem";
 
 export {
   Layout,
@@ -38,4 +39,5 @@ export {
   Header,
   HostEventItem,
   TeamItem,
+  MissionVissionItem,
 };
