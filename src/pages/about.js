@@ -17,7 +17,7 @@ const AboutPage = () => {
   ];
   const organization_initiatives = [
     {
-      image: "team_image/cute-cat.jpg",
+      image: " ",
       heading: "Monthly Meetups",
       description:
         "UXPH organizes free monthly meetups all around Metro Manila (and soon outside of it). Meetups range from design and entrepreneurship talks, panels, workshops, or social events hosted at partner venues.",
@@ -25,7 +25,7 @@ const AboutPage = () => {
       buttonLabel :"View our events",
     },
     {
-      image: "team_image/cute-cat.jpg",
+      image: " ",
       heading: "Design Conferences",
       description:
         "Each year, we hold large-scale design conferences throughout the Philippines. These events feature keynote speakers, workshops, and hiring fairs with local and international partners and are open to all audiences.",
@@ -34,7 +34,7 @@ const AboutPage = () => {
       
     },
     {
-      image: "team_image/cute-cat.jpg",
+      image: " ",
       heading: "UX Bootcamp (Coming Soon)",
       description:
         "Soon you'll be able to learn more about the fundamentals of UX Design and put them into practice in an immersive UX Bootcamp. Coming in 2021!",
@@ -42,7 +42,7 @@ const AboutPage = () => {
       buttonLabel:null,
     },
     {
-      image: "team_image/cute-cat.jpg",
+      image: " ",
       heading: "Design Mentorship",
       description:
         "UXPH works with some of the country's most experienced designers. As a way to give back to the community, these designers often offer ongoing mentorship engagements for new and experienced practitioners to the public or private sectors. Message us to learn more!",
