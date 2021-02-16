@@ -74,18 +74,6 @@ const EventsPage = () => {
             </Grid>
             <Grid item md={4}>
               <h3>Page 1 of 3</h3>
-              <Box component="div">
-                <Box
-                  item
-                  className="margin-right-4"
-                  style={{ display: "inline-block" }}
-                >
-                  <Button>&larr;</Button>
-                </Box>
-                <Box item>
-                  <Button>&rarr;</Button>
-                </Box>
-              </Box>
 
               <HostEventItem host={hostFeature} />
             </Grid>
