@@ -1,6 +1,14 @@
 import React from "react";
-import { Layout, SEO, HostEventItem } from "../components/Components";
+import {
+  Layout,
+  SEO,
+  HostEventItem,
+  EventItem,
+  Header,
+  Button,
+} from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
+import events from "../data/events";
 
 const EventsPage = () => {
   const hostFeature = {
@@ -8,17 +16,65 @@ const EventsPage = () => {
     description:
       "Have an event idea? You can host your own UXPH-sanctioned event!",
   };
+
   return (
     <Layout active="/events">
       <SEO title="Events" />
+      <Header>
+        <h1 className="margin-bottom-32 text-white">Featured Event</h1>
+        <Box component="div">
+          <Grid container spacing={4}>
+            <Grid item md={3}>
+              <Box
+                component="div"
+                style={{
+                  width: "100%",
+                  overflow: "hidden",
+                  borderRadius: "8px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  src={events[0].image_square_url}
+                  style={{
+                    height: "200px",
+                  }}
+                  alt={events[0].name}
+                />
+              </Box>
+            </Grid>
 
+            <Grid item md={9}>
+              <h2 className="text-white margin-bottom-16">{events[0].name}</h2>
+              <p
+                className="text-white font-size-16 margin-bottom-16"
+                style={{ fontWeight: "light" }}
+              >
+                {events[0].date} | {events[0].time} | {events[0].venue}
+              </p>
+              <p className="text-white margin-bottom-16">
+                {events[0].description}
+              </p>
+              <Button variant="blue">Get Tickets</Button>
+            </Grid>
+          </Grid>
+        </Box>
+      </Header>
       <Box component="section" py={12}>
         <Container maxWidth="md">
           <Grid container spacing={4}>
-            <Grid item md={7}>
-              <h1>List of events here</h1>
+            <Grid item md={8}>
+              <h1 className="margin-bottom-32">Past Events</h1>
+              {events.map((item, index) => {
+                if (index !== 0) return <EventItem event={item} key={index} />;
+                else return null;
+              })}
             </Grid>
-            <Grid item md={5}>
+            <Grid item md={4}>
+              <h3>Page 1 of 3</h3>
+
               <HostEventItem host={hostFeature} />
             </Grid>
           </Grid>
