@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Footer.module.scss";
 import { Container, Grid, Box } from "@material-ui/core";
 import { SocialMediaItem } from "../Components";
+import { Link } from "gatsby";
 import social_media from "../../data/social_media.json";
 import classNames from "classnames";
 
@@ -20,7 +21,7 @@ const Footer = () => {
               }}
             />
             <p className="text-white">&copy; Copyright 2020</p>
-            <a href="/code-of-conduct">View Code of Conduct</a>
+            <Link to="/code-of-conduct">View Code of Conduct</Link>
             <Box mt={2}>
               <a
                 href="https://www.netlify.com/"

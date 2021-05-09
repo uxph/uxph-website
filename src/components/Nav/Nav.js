@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Box, Grid } from "@material-ui/core";
+import { Link } from "gatsby";
 import { MenuRounded, CloseRounded } from "@material-ui/icons";
 import styles from "./Nav.module.scss";
 import { NavItem } from "../Components";
@@ -18,8 +19,8 @@ const Nav = ({ active }) => {
         <Grid container alignItems="center">
           <Grid item container md={isBreakpoint ? 12 : 2} alignItems="center">
             {isBreakpoint && (
-              <a
-                href="/"
+              <Link
+                to="/"
                 onClick={(e) => {
                   e.preventDefault();
                   $(`.${styles["mobile_navigation"]}`).removeClass(
@@ -29,9 +30,9 @@ const Nav = ({ active }) => {
                 }}
               >
                 <MenuRounded id="menu" className={styles["menu"]} />
-              </a>
+              </Link>
             )}
-            <a href="/">
+            <Link to="/">
               <img
                 src="/images/brand/uxph_logo.svg"
                 alt="UXPH logo"
@@ -39,7 +40,7 @@ const Nav = ({ active }) => {
                   "margin-left-16 margin-bottom-16 margin-top-24": isBreakpoint,
                 })}
               />
-            </a>
+            </Link>
           </Grid>
           {!isBreakpoint && (
             <Grid item container md={10} justify="flex-end">
@@ -56,8 +57,8 @@ const Nav = ({ active }) => {
             component="div"
             className={classNames(styles["mobile_navigation"], styles["hide"])}
           >
-            <a
-              href="/"
+            <Link
+              to="/"
               onClick={(e) => {
                 e.preventDefault();
                 $(`.${styles["mobile_navigation"]}`).addClass(
@@ -71,10 +72,10 @@ const Nav = ({ active }) => {
                 className={styles["overlay"]}
                 id="overlay"
               ></Box>
-            </a>
+            </Link>
 
-            <a
-              href="/"
+            <Link
+              to="/"
               onClick={(e) => {
                 e.preventDefault();
                 $(`.${styles["mobile_navigation"]}`).addClass(
@@ -87,7 +88,7 @@ const Nav = ({ active }) => {
                 className={classNames(styles["close"], styles["hide"])}
                 id="close"
               />
-            </a>
+            </Link>
             <Box component="ul" my={10}>
               {nav_items.map((item, index) => {
                 if (item.subNav) {
@@ -104,14 +105,14 @@ const Nav = ({ active }) => {
                         {item.subNav.map((subNavItem, subIndex) => {
                           return (
                             <Box component="div" py={1} key={subIndex}>
-                              <a href={subNavItem.url} key={subIndex}>
+                              <Link to={subNavItem.url} key={subIndex}>
                                 <p className="text-white">
                                   <strong>{subNavItem.label}</strong>
                                 </p>
                                 <small className="d-block text-gray">
                                   {subNavItem.subLabel}
                                 </small>
-                              </a>
+                              </Link>
                             </Box>
                           );
                         })}
@@ -120,7 +121,7 @@ const Nav = ({ active }) => {
                   );
                 } else {
                   return (
-                    <a href={item.url} key={index}>
+                    <Link to={item.url} key={index}>
                       <Box
                         component="li"
                         px={5}
@@ -132,7 +133,7 @@ const Nav = ({ active }) => {
                       >
                         <strong>{item.label}</strong>
                       </Box>
-                    </a>
+                    </Link>
                   );
                 }
               })}

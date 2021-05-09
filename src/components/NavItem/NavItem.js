@@ -1,5 +1,6 @@
 import React from "react";
 import { Box } from "@material-ui/core";
+import { Link } from "gatsby";
 import _ from "lodash";
 import styles from "./NavItem.module.scss";
 import classNames from "classnames";
@@ -16,13 +17,11 @@ const NavItem = ({ nav, active }) => {
       })}
     >
       {!_.isNull(url) ? (
-        <a href={url} className="d-block padding-y-16 padding-x-16">
+        <Link to={url} className="d-block padding-y-16 padding-x-16">
           {label}
-        </a>
+        </Link>
       ) : (
-        <span href={url} className="d-block padding-y-16 padding-x-16">
-          {label}
-        </span>
+        <span className="d-block padding-y-16 padding-x-16">{label}</span>
       )}
       {subNav && (
         <Box
@@ -49,12 +48,12 @@ const NavItem = ({ nav, active }) => {
                   )}
                   key={index}
                 >
-                  <a href={subNavItem.url} key={index}>
+                  <Link to={subNavItem.url} key={index}>
                     <p>{subNavItem.label}</p>
                     <small className="d-block text-gray">
                       {subNavItem.subLabel}
                     </small>
-                  </a>
+                  </Link>
                 </Box>
               );
             })}
