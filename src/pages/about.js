@@ -1,5 +1,12 @@
 import React from "react";
-import { Layout, SEO, Button, Card, MissionVissionItem, FeaturedItem} from "../components/Components";
+import {
+  Layout,
+  SEO,
+  Button,
+  Card,
+  MissionVissionItem,
+  FeaturedItem,
+} from "../components/Components";
 import { Box, Container, Grid } from "@material-ui/core";
 
 const AboutPage = () => {
@@ -22,7 +29,7 @@ const AboutPage = () => {
       description:
         "UXPH organizes free monthly meetups all around Metro Manila (and soon outside of it). Meetups range from design and entrepreneurship talks, panels, workshops, or social events hosted at partner venues.",
       url: "https://",
-      buttonLabel :"View our events",
+      buttonLabel: "View our events",
     },
     {
       image: " ",
@@ -30,8 +37,7 @@ const AboutPage = () => {
       description:
         "Each year, we hold large-scale design conferences throughout the Philippines. These events feature keynote speakers, workshops, and hiring fairs with local and international partners and are open to all audiences.",
       url: "https://",
-      buttonLabel :"Visit UXPH Roadshow",
-      
+      buttonLabel: "Visit UXPH Roadshow",
     },
     {
       image: " ",
@@ -39,7 +45,7 @@ const AboutPage = () => {
       description:
         "Soon you'll be able to learn more about the fundamentals of UX Design and put them into practice in an immersive UX Bootcamp. Coming in 2021!",
       url: null,
-      buttonLabel:null,
+      buttonLabel: null,
     },
     {
       image: " ",
@@ -47,7 +53,7 @@ const AboutPage = () => {
       description:
         "UXPH works with some of the country's most experienced designers. As a way to give back to the community, these designers often offer ongoing mentorship engagements for new and experienced practitioners to the public or private sectors. Message us to learn more!",
       url: null,
-      buttonLabel:null,
+      buttonLabel: null,
     },
   ];
   return (
@@ -55,7 +61,7 @@ const AboutPage = () => {
       <SEO title="About UXPH" />
       <Box component="section" py={12}>
         <Container maxWidth="md">
-        <h2 className="margin-bottom-24 font-size-32">About UXPH</h2>
+          <h2 className="margin-bottom-24 font-size-32">About UXPH</h2>
           <p className="margin-bottom-24">
             UXPH (User Experience Philippines) is a Filipino non-profit
             organization that hosts the largest network of design professionals,
@@ -72,7 +78,7 @@ const AboutPage = () => {
             members from a wide range of industries related to technology and
             even traditional businesses.
           </p>
-          <Button  variant="contained" href="">
+          <Button variant="contained" href="">
             Join the Facebook group
           </Button>
           <Button variant="contained" href="">
@@ -83,15 +89,15 @@ const AboutPage = () => {
       <Box component="section" py={3}>
         <Container maxWidth="md">
           <Card>
-          <Grid container spacing={4}>
-            {mission_vision.map((mv, index) => {
-              return (
-                <Grid item md={6} sm={12} key={index}>
-                  <MissionVissionItem mv={mv} />
-                </Grid>
-              );
-            })}
-          </Grid>
+            <Grid container spacing={4}>
+              {mission_vision.map((mv, index) => {
+                return (
+                  <Grid item md={6} sm={12} key={index}>
+                    <MissionVissionItem mv={mv} />
+                  </Grid>
+                );
+              })}
+            </Grid>
           </Card>
         </Container>
       </Box>
@@ -113,7 +119,6 @@ const AboutPage = () => {
           </Grid>
         </Container>
       </Box>
-      
     </Layout>
   );
 };
