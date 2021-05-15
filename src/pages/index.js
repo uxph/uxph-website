@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Layout,
-  SEO,
-  Button,
-  Card,
-  Controls,
-  BlogItem,
-  Header,
-} from "../components/Components";
+import { Layout, SEO, Button, Card, Header } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
 import { CheckCircle } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
@@ -33,7 +25,12 @@ const IndexPage = () => {
     <Layout active="/">
       <SEO title="Home" />
       <Header>
-        <h1 className="text-white text-center">UXPH</h1>
+        <h1 className="text-white text-center mb-3">UX Philippines</h1>
+        <h3 className="font-weight-normal text-white text-center">
+          Welcome to the Philippines' largest community of individuals
+          passionate about the realm of UX (User Experience), and all things
+          related.
+        </h3>
       </Header>
       <Box component="section" py={12}>
         <Container maxWidth="md">
@@ -60,16 +57,6 @@ const IndexPage = () => {
         </Container>
       </Box>
       <Box component="section" py={12} className="bg-light-1">
-        <Container maxWidth="md">
-          <h2 className="margin-bottom-8 font-size-32">Our Events</h2>
-          <p className="text-gray margin-bottom-16">
-            This section is coming soon!
-          </p>
-          <BlogItem />
-          <Controls />
-        </Container>
-      </Box>
-      <Box component="section" py={12}>
         <Container maxWidth="md">
           <Grid container spacing={4} alignItems="center">
             <Grid item md={5} sm={6}>
@@ -171,18 +158,6 @@ const IndexPage = () => {
               />
             </Grid>
           </Grid>
-        </Container>
-      </Box>
-      <Box component="section" pt={12} pb={16}>
-        <Container maxWidth="md">
-          <Card>
-            <h2 className="font-size-32 text-center">
-              Participate in the research
-            </h2>
-            <p className="text-gray text-center">
-              A section for this coming soon!
-            </p>
-          </Card>
         </Container>
       </Box>
     </Layout>

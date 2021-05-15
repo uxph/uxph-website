@@ -69,7 +69,7 @@ const Sponsorships = () => {
           </Grid>
         </Container>
       </Box>
-      <Box component="section" py={12}>
+      <Box component="section" py={12} className="bg-light-1">
         <Container maxWidth="md">
           <h2 className="font-size-32 text-dark margin-bottom-48">
             Sponsorship Perks

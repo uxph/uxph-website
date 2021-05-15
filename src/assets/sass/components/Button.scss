@@ -23,4 +23,15 @@
       color: $brand-active-color !important;
     }
   }
+
+  &.white {
+    background-color: $adaptive-white !important;
+    color: $brand-color !important;
+    border: 2px solid $adaptive-white !important;
+
+    &:hover {
+      border-color: $adaptive-white3 !important;
+      background-color: $adaptive-white3 !important;
+    }
+  }
 }

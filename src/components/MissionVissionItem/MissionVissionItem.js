@@ -5,7 +5,7 @@ const MissionVissionItem = ({ mv }) => {
   return (
     <Box component="div" className="perk_item d-flex">
       <Box component="div">
-        <h3 className="margin-bottom-12">{heading}</h3>
+        <h2 className="margin-bottom-12">{heading}</h2>
         <p className="text-gray">{description}</p>
       </Box>
     </Box>

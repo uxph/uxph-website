@@ -6,8 +6,10 @@ import {
   Card,
   MissionVissionItem,
   FeaturedItem,
+  Header,
 } from "../components/Components";
 import { Box, Container, Grid } from "@material-ui/core";
+import { Facebook } from "@material-ui/icons";
 
 const AboutPage = () => {
   const mission_vision = [
@@ -59,33 +61,42 @@ const AboutPage = () => {
   return (
     <Layout>
       <SEO title="About UXPH" />
-      <Box component="section" py={12}>
-        <Container maxWidth="md">
-          <h2 className="margin-bottom-24 font-size-32">About UXPH</h2>
-          <p className="margin-bottom-24">
-            UXPH (User Experience Philippines) is a Filipino non-profit
-            organization that hosts the largest network of design professionals,
-            enthusiasts, and students in the Philippines. Since 2012, we have
-            been building towards a more mature, collaborative, and
-            design-driven country through hosting online and offline community
-            initiatives, conferences, and programs within local design and
-            technology communities.
-          </p>
-          <p className="margin-bottom-24">
-            UXPH has become the country’s hub for sharing information,
-            resources, and building networks in the design community. As of
-            2020, the UXPH community has over 4,000 local and international
-            members from a wide range of industries related to technology and
-            even traditional businesses.
-          </p>
-          <Button variant="contained" href="">
-            Join the Facebook group
-          </Button>
-          <Button variant="contained" href="">
-            Facebook page
-          </Button>
-        </Container>
-      </Box>
+      <Header>
+        <h2 className="margin-bottom-24 font-size-32 text-white">About UXPH</h2>
+        <p className="margin-bottom-24 text-white">
+          UXPH (User Experience Philippines) is a Filipino non-profit
+          organization that hosts the largest network of design professionals,
+          enthusiasts, and students in the Philippines. Since 2012, we have been
+          building towards a more mature, collaborative, and design-driven
+          country through hosting online and offline community initiatives,
+          conferences, and programs within local design and technology
+          communities.
+        </p>
+        <p className="margin-bottom-24 text-white">
+          UXPH has become the country’s hub for sharing information, resources,
+          and building networks in the design community. As of 2020, the UXPH
+          community has over 4,000 local and international members from a wide
+          range of industries related to technology and even traditional
+          businesses.
+        </p>
+        <Button
+          variant="white"
+          target="blank"
+          href="https://www.facebook.com/groups/252346031458195/"
+          className="margin-right-8"
+        >
+          <Facebook className="margin-right-4" />
+          Join the Facebook group
+        </Button>
+        <Button
+          variant="white"
+          target="blank"
+          href="https://www.facebook.com/uxphofficial/"
+        >
+          <Facebook className="margin-right-4" />
+          Facebook page
+        </Button>
+      </Header>
       <Box component="section" py={3}>
         <Container maxWidth="md">
           <Card>
@@ -101,14 +112,12 @@ const AboutPage = () => {
           </Card>
         </Container>
       </Box>
-      <Box component="section" py={5}>
+      <Box component="section" py={12}>
         <Container maxWidth="md">
-          <h2 className="font-size-32 text-dark">Organization Initiatives</h2>
-        </Container>
-      </Box>
-      <Box component="section" py={4}>
-        <Container maxWidth="md">
-          <Grid container spacing={4}>
+          <h2 className="font-size-32 text-dark margin-bottom-32">
+            Organization Initiatives
+          </h2>
+          <Grid container spacing={2}>
             {organization_initiatives.map((feature, index) => {
               return (
                 <Grid item md={6} key={index}>

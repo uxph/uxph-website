@@ -14,6 +14,10 @@
   color: $primary-color !important;
 }
 
+.text-danger {
+  color: $danger-color !important;
+}
+
 .text-left {
   text-align: left !important;
 }
@@ -92,4 +96,12 @@
 
 .align-items-center {
   align-items: center !important;
+}
+
+.font-size-14 {
+  font-size: 0.875rem !important;
+}
+
+.font-size-18 {
+  font-size: 1.125rem !important;
 }
