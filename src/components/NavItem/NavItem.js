@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@material-ui/core";
+import { Link } from "gatsby";
 import _ from "lodash";
-import styles from "./NavItem.module.scss";
 import classNames from "classnames";
 
 const NavItem = ({ nav, active }) => {
@@ -11,50 +11,41 @@ const NavItem = ({ nav, active }) => {
       component="li"
       m={0}
       p={0}
-      className={classNames(styles["nav_item"], {
-        [`${styles["active"]}`]: active === url,
+      className={classNames("nav_item", {
+        active: active === url,
       })}
     >
       {!_.isNull(url) ? (
-        <a href={url} className="d-block padding-y-16 padding-x-16">
+        <Link to={url} className="d-block padding-y-16 padding-x-16">
           {label}
-        </a>
+        </Link>
       ) : (
-        <span href={url} className="d-block padding-y-16 padding-x-16">
-          {label}
-        </span>
+        <span className="d-block padding-y-16 padding-x-16">{label}</span>
       )}
       {subNav && (
         <Box
-          className={styles["sub_nav"]}
+          className="sub_nav"
           style={{
             transformOrigin: direction === "left" ? "top left" : "top right",
             right: direction === "left" ? "auto" : "0",
           }}
         >
-          <Box
-            className={classNames(
-              styles["sub_nav_container"],
-              "border-radius-8"
-            )}
-          >
+          <Box className="sub_nav_container" borderRadius={8}>
             {subNav.map((subNavItem, index) => {
               return (
                 <Box
                   px={3}
                   py={2}
-                  className={classNames(
-                    styles["sub_nav_item"],
-                    "border-radius-4"
-                  )}
+                  className="sub_nav_item"
                   key={index}
+                  borderRadius={4}
                 >
-                  <a href={subNavItem.url} key={index}>
+                  <Link to={subNavItem.url} key={index}>
                     <p>{subNavItem.label}</p>
                     <small className="d-block text-gray">
                       {subNavItem.subLabel}
                     </small>
-                  </a>
+                  </Link>
                 </Box>
               );
             })}

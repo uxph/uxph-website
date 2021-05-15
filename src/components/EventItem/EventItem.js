@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Card, Box } from "@material-ui/core";
 
 const EventItem = ({ event }) => {
-  const { name, time, date, venue, image_square_url, blog_url } = event;
+  const { name, time, date, venue, image_square_url } = event;
   return (
     <Card className="margin-bottom-32">
       <Grid container className="margin-y-16 margin-x-16" spacing={3}>

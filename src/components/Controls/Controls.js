@@ -1,7 +1,6 @@
 import React from "react";
 import { Box } from "@material-ui/core";
 import { ArrowForward, ArrowBack } from "@material-ui/icons";
-import styles from "./Controls.module.scss";
 import classNames from "classnames";
 
 const Controls = ({ current = 0, setCurrent = () => {}, min = 0, max = 5 }) => {
@@ -9,8 +8,8 @@ const Controls = ({ current = 0, setCurrent = () => {}, min = 0, max = 5 }) => {
     <Box component="div" display="inline-block">
       <Box
         component="button"
-        className={classNames("margin-right-4", styles["control"], {
-          [`${styles["disabled"]}`]: min === current,
+        className={classNames("margin-right-4 control", {
+          disabled: min === current,
         })}
         onClick={() => {
           if (current > min) {
@@ -18,12 +17,12 @@ const Controls = ({ current = 0, setCurrent = () => {}, min = 0, max = 5 }) => {
           }
         }}
       >
-        <ArrowBack className={styles["arrow"]} />
+        <ArrowBack className="arrow" />
       </Box>
       <Box
         component="button"
-        className={classNames("margin-left-4", styles["control"], {
-          [`${styles["disabled"]}`]: max === current,
+        className={classNames("margin-left-4 control", {
+          disabled: max === current,
         })}
         onClick={() => {
           if (current < max) {
@@ -31,7 +30,7 @@ const Controls = ({ current = 0, setCurrent = () => {}, min = 0, max = 5 }) => {
           }
         }}
       >
-        <ArrowForward className={styles["arrow"]} />
+        <ArrowForward className="arrow" />
       </Box>
     </Box>
   );
