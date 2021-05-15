@@ -6,7 +6,7 @@ import social_media from "../../data/social_media.json";
 
 const Footer = () => {
   return (
-    <Box component="footer" py={12} id="footer">
+    <Box component="footer" overflow="hidden" py={12} id="footer">
       <Container maxWidth="md">
         <Grid container spacing={5}>
           <Grid item md={3} sm={5} xs={12}>
