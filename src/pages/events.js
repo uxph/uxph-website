@@ -20,7 +20,7 @@ const EventsPage = () => {
   return (
     <Layout active="/events">
       <SEO title="Events" />
-      <Header>
+      <Header bgImage={events[0].image_banner_url}>
         <h1 className="margin-bottom-32 text-white">Featured Event</h1>
         <Box component="div">
           <Grid container spacing={4}>
