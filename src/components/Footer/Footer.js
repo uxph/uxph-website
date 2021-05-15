@@ -1,14 +1,12 @@
 import React from "react";
-import styles from "./Footer.module.scss";
 import { Container, Grid, Box } from "@material-ui/core";
 import { SocialMediaItem } from "../Components";
 import { Link } from "gatsby";
 import social_media from "../../data/social_media.json";
-import classNames from "classnames";
 
 const Footer = () => {
   return (
-    <Box component="footer" py={12} id={styles["footer"]}>
+    <Box component="footer" py={12} id="footer">
       <Container maxWidth="md">
         <Grid container spacing={5}>
           <Grid item md={3} sm={5} xs={12}>
@@ -25,10 +23,7 @@ const Footer = () => {
             <Box mt={2}>
               <a
                 href="https://www.netlify.com/"
-                className={classNames(
-                  "text-gray font-size-12",
-                  styles["netlify_link"]
-                )}
+                className="text-gray font-size-12 netlify_link"
                 target="blank"
               >
                 This site is powered by Netlify

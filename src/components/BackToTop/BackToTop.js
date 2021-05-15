@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import styles from "./BackToTop.module.scss";
 import { Box } from "@material-ui/core";
 import { ArrowUpwardRounded } from "@material-ui/icons";
 import classNames from "classnames";
@@ -34,12 +33,12 @@ const BackToTop = ({ showAt = 700, speed = 400 }) => {
   return (
     <Box
       id="back-to-top"
-      className={classNames(styles["back_to_top"], {
-        [`${styles["hide"]}`]: !showBackToTop,
+      className={classNames("back_to_top", {
+        hide: !showBackToTop,
       })}
       borderRadius="50%"
     >
-      <ArrowUpwardRounded className={styles["arrow_icon"]} />
+      <ArrowUpwardRounded className="arrow_icon" />
     </Box>
   );
 };

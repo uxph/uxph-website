@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Box, Grid } from "@material-ui/core";
 import { Link } from "gatsby";
 import { MenuRounded, CloseRounded } from "@material-ui/icons";
-import styles from "./Nav.module.scss";
 import { NavItem } from "../Components";
 import nav_items from "../../data/nav.json";
 import { navBreakpoint } from "../../helpers/responsive";
@@ -14,7 +13,7 @@ const Nav = ({ active }) => {
   const isBreakpoint = useMediaQuery({ query: navBreakpoint });
 
   return (
-    <Box component="nav" className={styles["navigation"]}>
+    <Box component="nav" className="navigation">
       <Container maxWidth="md">
         <Grid container alignItems="center">
           <Grid item container md={isBreakpoint ? 12 : 2} alignItems="center">
@@ -23,13 +22,11 @@ const Nav = ({ active }) => {
                 to="/"
                 onClick={(e) => {
                   e.preventDefault();
-                  $(`.${styles["mobile_navigation"]}`).removeClass(
-                    `${styles["hide"]}`
-                  );
-                  $(`.${styles["close"]}`).removeClass(`${styles["hide"]}`);
+                  $(".mobile_navigation").removeClass("hide");
+                  $(".close").removeClass("hide");
                 }}
               >
-                <MenuRounded id="menu" className={styles["menu"]} />
+                <MenuRounded id="menu" className="menu" />
               </Link>
             )}
             <Link to="/">
@@ -44,7 +41,7 @@ const Nav = ({ active }) => {
           </Grid>
           {!isBreakpoint && (
             <Grid item container md={10} justify="flex-end">
-              <Box component="ul" className={styles["nav_items"]}>
+              <Box component="ul" className="nav_items">
                 {nav_items.map((item, index) => {
                   return <NavItem nav={item} active={active} key={index} />;
                 })}
@@ -53,41 +50,27 @@ const Nav = ({ active }) => {
           )}
         </Grid>
         {isBreakpoint && (
-          <Box
-            component="div"
-            className={classNames(styles["mobile_navigation"], styles["hide"])}
-          >
+          <Box component="div" className="mobile_navigation hide">
             <Link
               to="/"
               onClick={(e) => {
                 e.preventDefault();
-                $(`.${styles["mobile_navigation"]}`).addClass(
-                  `${styles["hide"]}`
-                );
-                $(`.${styles["close"]}`).addClass(`${styles["hide"]}`);
+                $(".mobile_navigation").addClass("hide");
+                $(".close").addClass("hide");
               }}
             >
-              <Box
-                component="div"
-                className={styles["overlay"]}
-                id="overlay"
-              ></Box>
+              <Box component="div" className="overlay" id="overlay"></Box>
             </Link>
 
             <Link
               to="/"
               onClick={(e) => {
                 e.preventDefault();
-                $(`.${styles["mobile_navigation"]}`).addClass(
-                  `${styles["hide"]}`
-                );
-                $(`.${styles["close"]}`).addClass(`${styles["hide"]}`);
+                $(".mobile_navigation").addClass("hide");
+                $(".close").addClass("hide");
               }}
             >
-              <CloseRounded
-                className={classNames(styles["close"], styles["hide"])}
-                id="close"
-              />
+              <CloseRounded className="close hide" id="close" />
             </Link>
             <Box component="ul" my={10}>
               {nav_items.map((item, index) => {
@@ -128,7 +111,7 @@ const Nav = ({ active }) => {
                         py={2}
                         key={index}
                         className={classNames("text-white", {
-                          [`${styles["active"]}`]: active === item.url,
+                          active: active === item.url,
                         })}
                       >
                         <strong>{item.label}</strong>

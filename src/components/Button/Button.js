@@ -1,15 +1,13 @@
 import React from "react";
 import { Button as MuiButton } from "@material-ui/core";
 import { Link } from "gatsby";
-import styles from "./Button.module.scss";
-import classNames from "classnames";
 
 const Button = ({ children, href = "/", ...props }) => {
   if (props.variant === "outlined") {
     // ? outlined button
     return (
       <MuiButton
-        className={classNames(styles["button"], styles["outlined"])}
+        className="button outlined"
         to={href}
         component={Link}
         {...props}
@@ -20,12 +18,7 @@ const Button = ({ children, href = "/", ...props }) => {
   } else {
     // ? standard button
     return (
-      <MuiButton
-        className={classNames(styles["button"])}
-        to={href}
-        component={Link}
-        {...props}
-      >
+      <MuiButton className="button" to={href} component={Link} {...props}>
         {children}
       </MuiButton>
     );

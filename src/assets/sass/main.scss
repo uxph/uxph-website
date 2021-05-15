@@ -3,5 +3,22 @@
 @import "./utilities.scss";
 @import "./custom.scss";
 
+// component styling
+@import "./components/BackToTop.scss";
+@import "./components/BlogItem.scss";
+@import "./components/Button.scss";
+@import "./components/Card.scss";
+@import "./components/Controls.scss";
+@import "./components/FeaturedItem.scss";
+@import "./components/Footer.scss";
+@import "./components/HostEventItem.scss";
+@import "./components/MissionVission.scss";
+@import "./components/Nav.scss";
+@import "./components/NavItem.scss";
+@import "./components/PerkItem.scss";
+@import "./components/SocialMediaItem.scss";
+@import "./components/SponsorItem.scss";
+@import "./components/TeamItem.scss";
+
 // overrides
 @import "./overrides/tabs.scss";
