@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, SEO, Button, Card, Header } from "../components/Components";
+import { Layout, SEO, Button, Header } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
 import { CheckCircle } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
