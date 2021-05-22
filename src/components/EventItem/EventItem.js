@@ -1,41 +1,66 @@
 import React from "react";
-import { Grid, Card, Box } from "@material-ui/core";
+import { Box } from "@material-ui/core";
+import { Button } from "../Components";
+import { Link } from "gatsby";
+import {
+  NavigateNextRounded,
+  PinDropRounded,
+  EventRounded,
+} from "@material-ui/icons";
 
 const EventItem = ({ event }) => {
   const { name, time, date, venue, image_square_url } = event;
   return (
-    <Card className="margin-bottom-32">
-      <Grid container className="margin-y-16 margin-x-16" spacing={3}>
-        <Grid item md={4}>
-          <Box
-            component="div"
-            style={{
-              width: "100%",
-              overflow: "hidden",
-              borderRadius: "3px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <img
-              src={image_square_url}
-              style={{
-                height: "160px",
-                borderRadius: "3px",
-              }}
-              alt={name}
-            />
+    <Link to="/">
+      <Box p={1} borderRadius={8} className="event_item">
+        <Box
+          component="div"
+          display="block"
+          height={200}
+          borderRadius={4}
+          className="bg-light"
+          overflow="hidden"
+          mb={2}
+        >
+          <img src={image_square_url} className="featured_image" alt={name} />
+        </Box>
+        <Box p={1}>
+          <h3 className="margin-bottom-8 font-size-18 line-height-24 event_title">
+            {name}
+          </h3>
+          <Box component="div" mb={4} className="event_details">
+            <Box
+              component="p"
+              display="flex"
+              alignItems="center"
+              className="text-gray"
+            >
+              <EventRounded className="mr-2" />
+              <Box component="div">
+                <span className="font-size-14">
+                  {date} ({time})
+                </span>
+              </Box>
+            </Box>
+            <Box
+              component="p"
+              display="flex"
+              alignItems="center"
+              className="text-gray"
+            >
+              <PinDropRounded className="mr-2" />
+              <Box component="div">
+                <span className="font-size-14">{venue}</span>
+              </Box>
+            </Box>
           </Box>
-        </Grid>
-        <Grid item md={8}>
-          <h3 className="margin-bottom-16">{name}</h3>
-          <p className="margin-bottom-4">{date}</p>
-          <p className="margin-bottom-4">{time}</p>
-          <p className="margin-bottom-4">{venue}</p>
-        </Grid>
-      </Grid>
-    </Card>
+          <Button variant="link" href="/events">
+            <span className="text-uppercase">Event recap</span>
+            <NavigateNextRounded />
+          </Button>
+        </Box>
+      </Box>
+    </Link>
   );
 };
 
