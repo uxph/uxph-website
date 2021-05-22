@@ -84,6 +84,7 @@ const AboutPage = () => {
           target="blank"
           href="https://www.facebook.com/groups/252346031458195/"
           className="margin-right-8"
+          isExternal={true}
         >
           <Facebook className="margin-right-4" />
           Join the Facebook group
@@ -92,6 +93,7 @@ const AboutPage = () => {
           variant="white"
           target="blank"
           href="https://www.facebook.com/uxphofficial/"
+          isExternal={true}
         >
           <Facebook className="margin-right-4" />
           Facebook page

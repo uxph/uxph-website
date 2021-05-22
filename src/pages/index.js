@@ -94,10 +94,7 @@ const IndexPage = () => {
                       className="list-style-none margin-bottom-12"
                       key={index}
                     >
-                      <Box
-                        component="div"
-                        className="d-flex align-items-center"
-                      >
+                      <Box component="div" display="flex" alignItems="center">
                         <CheckCircle className="text-success margin-right-16 font-size-16" />
                         <p
                           style={{

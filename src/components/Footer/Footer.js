@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Grid, Box } from "@material-ui/core";
-import { SocialMediaItem } from "../Components";
+import { SocialMediaItem, BackToTop as BackToTopComp } from "../Components";
 import { Link } from "gatsby";
 import social_media from "../../data/social_media.json";
+import BackToTop from "react-back-to-top-button";
 
 const Footer = () => {
   return (
@@ -45,6 +46,9 @@ const Footer = () => {
           </Grid>
         </Grid>
       </Container>
+      <BackToTop showAt={700} speed={1500} easing="easeOutSine">
+        <BackToTopComp />
+      </BackToTop>
     </Box>
   );
 };

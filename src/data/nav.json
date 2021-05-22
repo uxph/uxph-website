@@ -39,7 +39,7 @@
     "subNav": [
       {
         "label": "Be a volunteer",
-        "url": "/volunteers",
+        "url": "/",
         "subLabel": "Volunteer with us and be part of the community!"
       },
       {
@@ -64,12 +64,12 @@
     "subNav": [
       {
         "label": "UXPH Research",
-        "url": "/research",
+        "url": "/",
         "subLabel": "Browse through our studies about understanding the UX Design landscape within the Philippines."
       },
       {
         "label": "Research Team",
-        "url": "/research-team",
+        "url": "/",
         "subLabel": "Learn more about our research objectives and the team behind it."
       }
     ]

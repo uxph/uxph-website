@@ -3,26 +3,35 @@ import { Button as MuiButton } from "@material-ui/core";
 import { Link } from "gatsby";
 import classNames from "classnames";
 
-const Button = ({ children, href = "/", className = "", ...props }) => {
-  if (props.variant === "outlined") {
+const Button = ({
+  children,
+  href = "/",
+  className = "",
+  variant,
+  isExternal = false,
+  ...props
+}) => {
+  if (variant === "outlined") {
     // ? outlined button
     return (
       <MuiButton
         className={classNames("button outlined", className)}
         to={href}
-        component={Link}
+        href={href}
+        component={!isExternal ? Link : "a"}
         {...props}
       >
         {children}
       </MuiButton>
     );
-  } else if (props.variant === "white") {
+  } else if (variant === "white") {
     // ? outlined button
     return (
       <MuiButton
         className={classNames("button white", className)}
         to={href}
-        component={Link}
+        href={href}
+        component={!isExternal ? Link : "a"}
         {...props}
       >
         {children}
@@ -34,7 +43,8 @@ const Button = ({ children, href = "/", className = "", ...props }) => {
       <MuiButton
         className={classNames("button", className)}
         to={href}
-        component={Link}
+        href={href}
+        component={!isExternal ? Link : "a"}
         {...props}
       >
         {children}
