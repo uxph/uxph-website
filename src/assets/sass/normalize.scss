@@ -18,8 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font;
-  color: $primary-active-color;
+  font-family: $heading-font !important;
+  color: $primary-color;
 }
 
 h1,
@@ -34,28 +34,29 @@ p {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
 }
 
 h3 {
-  font-size: 1.125rem;
-  line-height: 1.875rem;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
   font-family: $body-font;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-family: $body-font;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.875rem;
-  color: $primary-color;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  color: $secondary-active-color;
 }
 
 i {

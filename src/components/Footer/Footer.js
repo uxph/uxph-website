@@ -8,7 +8,7 @@ import BackToTop from "react-back-to-top-button";
 const Footer = () => {
   return (
     <Box component="footer" overflow="hidden" py={12} id="footer">
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Grid container spacing={5}>
           <Grid item md={3} sm={5} xs={12}>
             <img

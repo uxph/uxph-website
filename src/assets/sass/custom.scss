@@ -6,12 +6,20 @@
   color: $secondary-color !important;
 }
 
+.text-dark-gray {
+  color: $secondary-active-color !important;
+}
+
 .text-success {
   color: $success-color !important;
 }
 
 .text-dark {
   color: $primary-color !important;
+}
+
+.text-primary {
+  color: $brand-color !important;
 }
 
 .text-danger {
@@ -104,4 +112,12 @@
 
 .font-size-18 {
   font-size: 1.125rem !important;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.line-height-24 {
+  line-height: 1.5rem !important;
 }

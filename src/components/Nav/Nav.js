@@ -14,7 +14,7 @@ const Nav = ({ active }) => {
 
   return (
     <Box component="nav" className="navigation">
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Grid container alignItems="center">
           <Grid item container md={isBreakpoint ? 12 : 2} alignItems="center">
             {isBreakpoint && (

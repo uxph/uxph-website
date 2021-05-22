@@ -41,7 +41,7 @@ const NavItem = ({ nav, active }) => {
                   borderRadius={4}
                 >
                   <Link to={subNavItem.url} key={index}>
-                    <p>{subNavItem.label}</p>
+                    <p className="font-weight-medium">{subNavItem.label}</p>
                     <small className="d-block text-gray">
                       {subNavItem.subLabel}
                     </small>

@@ -7,6 +7,7 @@
   padding: 0.4rem 1.5rem !important;
   transition: ease all 0.3s !important;
   box-shadow: 0px 2px 11px rgba(71, 71, 71, 0.2) !important;
+  font-size: 1rem !important;
 
   &:hover {
     background-color: $brand-active-color !important;
@@ -18,9 +19,24 @@
     background-color: transparent !important;
     color: $brand-color !important;
     border: 2px solid $brand-color !important;
+    box-shadow: none !important;
 
     &:hover {
       border-color: $brand-active-color !important;
+      color: $brand-active-color !important;
+    }
+  }
+
+  &.link {
+    padding: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    color: $brand-color !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
+    font-size: 0.875rem !important;
+
+    &:hover {
       color: $brand-active-color !important;
     }
   }
