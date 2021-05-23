@@ -1,51 +1,53 @@
 import React from "react";
-import { Box, Grid } from "@material-ui/core";
-import classNames from "classnames";
-import { useMediaQuery } from "react-responsive";
+import { Box } from "@material-ui/core";
+import { Link } from "gatsby";
+import { Button } from "../Components";
+import { NavigateNextRounded } from "@material-ui/icons";
 
-const BlogItem = (blog) => {
-  const isMaxWidth785 = useMediaQuery({ query: "(max-width: 784px)" });
-  const isMaxWidth600 = useMediaQuery({ query: "(max-width: 599px)" });
+const BlogItem = ({ blog }) => {
+  const { name, description, image_banner_url, date } = blog;
+
   return (
-    <Box component="div" p={2} className="blog_item">
-      <Grid container spacing={isMaxWidth600 ? 2 : 4} alignItems="center">
-        <Grid item md={5} sm={isMaxWidth785 ? 6 : 5}>
-          <img
-            src="https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu"
-            alt="Ready, Set, Research! 3 Things You Need to Know as a Fresh UX
-            Researcher"
-            className={classNames("featured_image", {
-              mobile: isMaxWidth600,
-            })}
-          />
-        </Grid>
-        <Grid item md={7} sm={6}>
-          <h3 className="margin-bottom-16 text-dark">
-            Ready, Set, Research! 3 Things You Need to Know as a Fresh UX
-            Researcher
+    <Link to="/">
+      <Box p={1} borderRadius={8} className="blog_item">
+        <Box
+          component="div"
+          display="block"
+          height={200}
+          borderRadius={4}
+          className="bg-light"
+          overflow="hidden"
+          mb={2}
+        >
+          <img src={image_banner_url} className="featured_image" alt={name} />
+        </Box>
+        <Box p={1}>
+          <h3 className="margin-bottom-8 font-size-18 line-height-24 blog_title">
+            {name}
           </h3>
-          {!isMaxWidth600 && (
-            <p className="text-gray margin-bottom-16 blog_description">
-              As a Filipino student taking my first steps into the field of UX
-              Research, figuring out where to start has always been the most
-              difficult part. However, thanks to UXR Conference...
-            </p>
-          )}
-
-          <Box component="div" className="blog_author">
+          <p className="text-gray margin-bottom-16 blog_description font-size-14 line-height-24 two-liner">
+            {description}
+          </p>
+          <Box component="div" className="blog_author" mb={4}>
             <img
               src="https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu"
               alt="Pauline Baterna"
               className="profile_photo"
             />
             <Box component="div">
-              <h4 className="text-dark font-weight-medium">Pauline Baterna</h4>
-              <small className="text-gray">July 15, 2020</small>
+              <h4 className="text-primary font-size-14 font-weight-normal">
+                Pauline Baterna
+              </h4>
+              <small className="text-gray">{date}</small>
             </Box>
           </Box>
-        </Grid>
-      </Grid>
-    </Box>
+          <Button variant="link" href={null} className="blog_cta">
+            <span className="text-uppercase">Read more</span>
+            <NavigateNextRounded />
+          </Button>
+        </Box>
+      </Box>
+    </Link>
   );
 };
 

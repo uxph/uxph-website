@@ -122,6 +122,35 @@
   font-weight: 500 !important;
 }
 
+.line-height-16 {
+  line-height: 1rem !important;
+}
+
 .line-height-24 {
   line-height: 1.5rem !important;
+}
+
+.line-height-32 {
+  line-height: 2rem !important;
+}
+
+.two-liner {
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.three-liner {
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.five-liner {
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5 !important;
+  -webkit-box-orient: vertical !important;
 }

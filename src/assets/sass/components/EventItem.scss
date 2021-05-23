@@ -1,6 +1,7 @@
 .event_item {
   background-color: $adaptive-white !important;
   transition: ease all 0.3s !important;
+  box-shadow: 0 2px 11px $secondary-shadow-color;
 
   .featured_image {
     object-fit: cover !important;

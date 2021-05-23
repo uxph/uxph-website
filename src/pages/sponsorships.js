@@ -52,7 +52,7 @@ const Sponsorships = () => {
     <Layout>
       <SEO title="Sponsorships" />
       <Box component="section" py={12}>
-        <Container maxWidth="md">
+        <Container maxWidth="lg">
           <h2 className="font-size-32 text-dark">Partner with UXPH</h2>
         </Container>
       </Box>
@@ -70,7 +70,7 @@ const Sponsorships = () => {
         </Container>
       </Box>
       <Box component="section" py={12} className="bg-light-1">
-        <Container maxWidth="md">
+        <Container maxWidth="lg">
           <h2 className="font-size-32 text-dark margin-bottom-48">
             Sponsorship Perks
           </h2>
@@ -86,7 +86,7 @@ const Sponsorships = () => {
         </Container>
       </Box>
       <Box component="section" py={12}>
-        <Container maxWidth="md">
+        <Container maxWidth="lg">
           <h2 className="font-size-32 margin-bottom-64 text-center text-dark">
             Our Community Partners
           </h2>

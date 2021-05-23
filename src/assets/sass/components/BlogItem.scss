@@ -4,10 +4,16 @@
   box-shadow: 0 2px 11px $secondary-shadow-color;
   cursor: pointer;
   transition: ease all 0.3s;
-  margin-bottom: 1.2rem;
+  min-height: 28rem;
+  position: relative;
+
+  .blog_cta {
+    position: absolute;
+    bottom: 1rem;
+  }
 
   &:hover {
-    transform: scale(0.98);
+    transform: scale(1.05);
   }
 
   .featured_image {
@@ -23,14 +29,6 @@
     }
   }
 
-  .blog_description {
-    display: -webkit-box;
-    line-height: 1.875rem;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
   .blog_author {
     display: flex;
     align-items: center;
@@ -39,7 +37,7 @@
       border-radius: 100%;
       width: 2.5rem;
       height: 2.5rem;
-      margin-right: 1rem;
+      margin-right: 0.875rem;
     }
   }
 }

@@ -39,12 +39,20 @@ const Button = ({
     );
   } else if (variant === "link") {
     // ? link button
-    return (
+    return href !== null ? (
       <MuiButton
         className={classNames("button link", className)}
         to={href}
         href={href}
         component={!isExternal ? Link : "a"}
+        {...props}
+      >
+        {children}
+      </MuiButton>
+    ) : (
+      <MuiButton
+        className={classNames("button link", className)}
+        component={"span"}
         {...props}
       >
         {children}

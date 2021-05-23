@@ -1,9 +1,9 @@
 import React from "react";
 import { Box } from "@material-ui/core";
 
-const Card = ({ suspend = 0, children, hasPadding = true }) => {
+const Card = ({ suspend = 0, children, p = 0 }) => {
   return (
-    <Box mt={suspend * -1} p={hasPadding ? 3 : 0} className="suspense_card">
+    <Box p={p} borderRadius={8} bottom={suspend * -1} className="suspense_card">
       {children}
     </Box>
   );

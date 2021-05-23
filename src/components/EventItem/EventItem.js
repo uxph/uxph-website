@@ -36,7 +36,7 @@ const EventItem = ({ event }) => {
               className="text-gray"
             >
               <EventRounded className="mr-2" />
-              <Box component="div">
+              <Box component="span">
                 <span className="font-size-14">
                   {date} ({time})
                 </span>
@@ -49,12 +49,12 @@ const EventItem = ({ event }) => {
               className="text-gray"
             >
               <PinDropRounded className="mr-2" />
-              <Box component="div">
+              <Box component="span">
                 <span className="font-size-14">{venue}</span>
               </Box>
             </Box>
           </Box>
-          <Button variant="link" href="/events">
+          <Button variant="link" href={null}>
             <span className="text-uppercase">Event recap</span>
             <NavigateNextRounded />
           </Button>

@@ -3,14 +3,14 @@
   box-shadow: 0px 2px 11px $secondary-shadow-color;
   height: 6.875rem;
   max-height: 6.875rem;
-  max-width: 12.5rem;
+  max-width: 100%;
   overflow: hidden;
   position: relative;
   cursor: pointer;
   transition: ease all 0.3s;
 
   &:hover {
-    transform: scale(0.95);
+    transform: scale(1.05);
   }
 
   .sponsor_image {

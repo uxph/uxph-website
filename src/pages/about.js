@@ -100,7 +100,7 @@ const AboutPage = () => {
         </Button>
       </Header>
       <Box component="section" py={3}>
-        <Container maxWidth="md">
+        <Container maxWidth="lg">
           <Card>
             <Grid container spacing={4}>
               {mission_vision.map((mv, index) => {

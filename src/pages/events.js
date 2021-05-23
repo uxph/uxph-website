@@ -2,7 +2,7 @@ import React from "react";
 import {
   Layout,
   SEO,
-  // HostEventItem,
+  Card,
   EventItem,
   Header,
   Button,
@@ -17,76 +17,53 @@ const EventsPage = () => {
   //     "Have an event idea? You can host your own UXPH-sanctioned event!",
   // };
 
+  const featuredEvent = events[0];
+
   return (
     <Layout active="/events">
       <SEO title="Events" />
-      <Header bgImage={events[0].image_banner_url}>
-        <h1 className="margin-bottom-32 text-white">Featured Event</h1>
-        <Box component="div">
-          <Grid container spacing={4}>
-            <Grid item md={3}>
-              <Box
-                component="div"
-                style={{
-                  width: "100%",
-                  overflow: "hidden",
-                  borderRadius: "8px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <img
-                  src={events[0].image_square_url}
-                  style={{
-                    height: "200px",
-                  }}
-                  alt={events[0].name}
-                />
+
+      <Header relative={true} pb={19}>
+        <h1 className="margin-bottom-24 text-white">Featured Event</h1>
+        <Card suspend={300} p={1}>
+          <Grid container spacing={4} alignItems="center">
+            <Grid item md={7}>
+              <Box p={2}>
+                <Box
+                  component="small"
+                  fontSize={14}
+                  display="block"
+                  className="text-uppercase text-primary"
+                  mb={2}
+                >
+                  {featuredEvent.date} • {featuredEvent.venue}
+                </Box>
+                <h2 className="font-size-24 line-height-32 two-liner">
+                  {featuredEvent.name}
+                </h2>
+                <p className="two-liner font-size-16 margin-bottom-16">
+                  {featuredEvent.description}
+                </p>
+                <Button href="/">
+                  <span className="font-size-14">View event details</span>
+                </Button>
               </Box>
             </Grid>
-
-            <Grid item md={9}>
-              <h2 className="text-white margin-bottom-16">{events[0].name}</h2>
-              <p
-                className="text-white font-size-16 margin-bottom-16"
-                style={{ fontWeight: "light" }}
-              >
-                {events[0].date} | {events[0].time} | {events[0].venue}
-              </p>
-              <p className="text-white margin-bottom-16">
-                {events[0].description}
-              </p>
-              <Button variant="blue">Get Tickets</Button>
+            <Grid item md={5}>
+              <Box borderRadius={4} height={250} className="bg-light"></Box>
             </Grid>
           </Grid>
-        </Box>
+        </Card>
       </Header>
-      {/* <Box component="section" py={12}>
-        <Container maxWidth="lg">
-          <Grid container spacing={4}>
-            <Grid item md={8}>
-              <h1 className="margin-bottom-32">Past Events</h1>
-              {events.map((item, index) => {
-                if (index !== 0) return <EventItem event={item} key={index} />;
-                else return null;
-              })}
-            </Grid>
-            <Grid item md={4}>
-              <h3>Page 1 of 3</h3>
-              <HostEventItem host={hostFeature} />
-            </Grid>
-          </Grid>
-        </Container>
-      </Box> */}
-      <Box component="section" py={12} className="bg-light-1">
+
+      <Box component="section" pt={26} pb={12} className="bg-light-1">
         <Container maxWidth="lg">
           <h2 className="margin-bottom-32 font-size-40">Past Events</h2>
           <Grid container spacing={3}>
             {events.map((event, index) => {
               return index !== 0 ? (
-                <Grid item md={4}>
-                  <EventItem event={event} key={index} />
+                <Grid item md={4} key={index}>
+                  <EventItem event={event} />
                 </Grid>
               ) : null;
             })}
