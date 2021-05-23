@@ -154,3 +154,7 @@
   -webkit-line-clamp: 5 !important;
   -webkit-box-orient: vertical !important;
 }
+
+.shadow {
+  box-shadow: 0 2px 11px $secondary-shadow-color !important;
+}
