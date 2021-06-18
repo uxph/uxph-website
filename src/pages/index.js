@@ -191,7 +191,7 @@ const IndexPage = () => {
                 A Designer’s Diary of UXPH Conference 2020: Reflections on
                 Navigating Change
               </h2>
-              <p className="margin-bottom-24 five-liner">
+              <p className="margin-bottom-24 four-liner">
                 UXPH is committed to collaborating with like-minded non-profit
                 or commercial companies and organizations. We're always
                 interested in partnership opportunities whether it is for new

@@ -148,6 +148,13 @@
   -webkit-box-orient: vertical !important;
 }
 
+.four-liner {
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important;
+  -webkit-box-orient: vertical !important;
+}
+
 .five-liner {
   overflow: hidden !important;
   display: -webkit-box !important;
