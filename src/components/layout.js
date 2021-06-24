@@ -8,13 +8,17 @@
 import React from "react";
 import { Nav, Footer } from "./Components";
 import "../assets/sass/main.scss";
+import { ThemeProvider } from "@material-ui/core/styles";
+import uxphTheme from "../theme";
 
 const Layout = ({ children, active }) => {
   return (
     <>
-      <Nav active={active} />
-      <main>{children}</main>
-      <Footer />
+      <ThemeProvider theme={uxphTheme}>
+        <Nav active={active} />
+        <main>{children}</main>
+        <Footer />
+      </ThemeProvider>
     </>
   );
 };
