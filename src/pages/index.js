@@ -3,6 +3,7 @@ import { Layout, SEO, Button, Header } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
 import { CheckCircle, NavigateNextRounded } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
+import { StaticImage } from "gatsby-plugin-image";
 import classNames from "classnames";
 
 const volunteer_perks = [
@@ -38,20 +39,46 @@ const IndexPage = () => {
   return (
     <Layout active="/">
       <SEO title="Home" />
-      <Header>
-        <Grid container spacing={0}>
-          <Grid item md={6} sm={12}>
-            <h1 className="text-white mb-3" id="page-header-title">
-              UX Philippines
-            </h1>
-            <p className="font-weight-normal text-white">
-              Welcome to the Philippines' largest community of individuals
-              passionate about the realm of UX (User Experience), and all things
-              related.
+      <Header
+        content={
+          <>
+            <h1 className="text-white header-title">UX Philippines</h1>
+            <p className="text-white-1 margin-bottom-32">
+              <strong className="text-white">
+                Welcome to the Philippines' largest community of individuals
+                passionate about the realm of UX (User Experience), and all
+                things related.
+              </strong>{" "}
+              Our community has over 4,000 local and international members from
+              a wide range of industries related to technology and even
+              traditional businesses.
             </p>
-          </Grid>
-        </Grid>
-      </Header>
+            <Box component="div">
+              <Button variant="white" href="/about" className="margin-right-16">
+                Learn more
+              </Button>
+              <Button
+                variant="white-alternative"
+                href="https://www.facebook.com/groups/uxphofficial"
+                isExternal={true}
+                target="_blank"
+              >
+                Join our Facebook group
+              </Button>
+            </Box>
+          </>
+        }
+        image={
+          <StaticImage
+            src="../images/collages/homepage-collage.png"
+            layout="fullWidth"
+            placeholder="blurred"
+            outputPixelDensities={2}
+            quality={100}
+            className="featured-image"
+          />
+        }
+      />
       <Box component="section" py={12}>
         <Container maxWidth="lg">
           <Grid container spacing={0} justify="flex-end">

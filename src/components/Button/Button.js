@@ -37,6 +37,19 @@ const Button = ({
         {children}
       </MuiButton>
     );
+  } else if (variant === "white-alternative") {
+    // ? outlined button
+    return (
+      <MuiButton
+        className={classNames("button white-alternative", className)}
+        to={href}
+        href={href}
+        component={!isExternal ? Link : "a"}
+        {...props}
+      >
+        {children}
+      </MuiButton>
+    );
   } else if (variant === "link") {
     // ? link button
     return href !== null ? (

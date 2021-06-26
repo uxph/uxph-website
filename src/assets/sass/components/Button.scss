@@ -7,7 +7,8 @@
   padding: 0.4rem 1.5rem !important;
   transition: ease all 0.3s !important;
   box-shadow: 0px 2px 11px rgba(71, 71, 71, 0.2) !important;
-  font-size: 1rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
 
   &:hover {
     background-color: $brand-active-color !important;
@@ -51,5 +52,11 @@
       border-color: $adaptive-white3 !important;
       background-color: $adaptive-white3 !important;
     }
+  }
+
+  &.white-alternative {
+    background-color: rgba($adaptive-white, 0.15) !important;
+    color: $adaptive-white !important;
+    border: 2px solid transparent !important;
   }
 }

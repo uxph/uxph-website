@@ -1,11 +1,16 @@
 .page-header {
-  background-color: $brand-active-color;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
+  background-image: linear-gradient(#1d3450, #1f4f8a);
+  position: relative;
 
-  #page-header-title {
-    font-size: 2.5rem;
+  .header-title {
+    font-size: 3.5rem;
+    line-height: 4.125rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .featured-image {
+    transform: scale(1.2);
+    right: -8.5rem;
+    position: relative;
   }
 }

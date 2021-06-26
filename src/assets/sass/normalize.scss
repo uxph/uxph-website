@@ -56,7 +56,7 @@ h4 {
 
 p {
   font-size: 1rem;
-  line-height: 1.75rem;
+  line-height: 2rem;
   color: $secondary-active-color;
 }
 
@@ -81,6 +81,10 @@ ol {
     color: $primary-color;
     line-height: 1.875rem;
   }
+}
+
+strong {
+  font-weight: 600;
 }
 
 blockquote {
