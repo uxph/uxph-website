@@ -76,6 +76,7 @@ const IndexPage = () => {
             outputPixelDensities={2}
             quality={100}
             className="featured-image"
+            alt="Welcome to UXPH"
           />
         }
       />
