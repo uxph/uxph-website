@@ -24,7 +24,7 @@ const Faq = () => {
         </>
       ),
       category: ["all", "events"],
-      panel: "panel-1"
+      panel: "panel-1",
     },
     {
       question: "When and where do you host events?",
@@ -36,7 +36,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "events"],
-      panel: "panel-2"
+      panel: "panel-2",
     },
     {
       question: "Does it cost anything to attend an event?",
@@ -48,7 +48,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "events"],
-      panel: "panel-3"
+      panel: "panel-3",
     },
     {
       question: "What's included in an event?",
@@ -62,7 +62,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "events"],
-      panel: "panel-4"
+      panel: "panel-4",
     },
     {
       question: "Can I just walk in or bring a +1 to a UXPH event?",
@@ -75,7 +75,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "events"],
-      panel: "panel-5"
+      panel: "panel-5",
     },
     {
       question: "Do you provide certificates for attending UXPH events?",
@@ -89,7 +89,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "events"],
-      panel: "panel-6"
+      panel: "panel-6",
     },
     {
       question: "Who can be a part of the UXPH team?",
@@ -109,7 +109,7 @@ const Faq = () => {
         </>
       ),
       category: ["all", "internals"],
-      panel: "panel-7"
+      panel: "panel-7",
     },
     {
       question: "How can I be a part of the UXPH team?",
@@ -126,7 +126,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "internals"],
-      panel: "panel-8"
+      panel: "panel-8",
     },
     {
       question: "How much time do I need to commit to volunteering for UXPH?",
@@ -140,7 +140,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "internals"],
-      panel: "panel-9"
+      panel: "panel-9",
     },
     {
       question: "When can I volunteer for UXPH?",
@@ -156,7 +156,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "internals"],
-      panel: "panel-10"
+      panel: "panel-10",
     },
     {
       question: "How can I be a speaker or workshop facilitator for UXPH?",
@@ -172,7 +172,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "externals"],
-      panel: "panel-11"
+      panel: "panel-11",
     },
     {
       question: "Do I get paid to be a speaker for UXPH?",
@@ -185,7 +185,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "externals"],
-      panel: "panel-12"
+      panel: "panel-12",
     },
     {
       question: "What's the difference between a partner and sponsor of UXPH?",
@@ -205,7 +205,7 @@ const Faq = () => {
         </>
       ),
       category: ["all", "externals"],
-      panel: "panel-13"
+      panel: "panel-13",
     },
     {
       question: "How can I be a community partner or sponsor of UXPH?",
@@ -220,7 +220,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "externals"],
-      panel: "panel-14"
+      panel: "panel-14",
     },
     {
       question: "When and where is the UXPH conference?",
@@ -232,7 +232,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "conferences"],
-      panel: "panel-15"
+      panel: "panel-15",
     },
     {
       question: "How much does it cost to attend the UXPH Conference?",
@@ -243,7 +243,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "conferences"],
-      panel: "panel-16"
+      panel: "panel-16",
     },
     {
       question: "Are tickets refundable or transferable?",
@@ -265,7 +265,7 @@ const Faq = () => {
         </>
       ),
       category: ["all", "ticketing"],
-      panel: "panel-17"
+      panel: "panel-17",
     },
     {
       question: "Are purchases refundable?",
@@ -280,7 +280,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "ticketing"],
-      panel: "panel-18"
+      panel: "panel-18",
     },
     {
       question: "I'd like to report an incident.",
@@ -304,7 +304,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "incident"],
-      panel: "panel-19"
+      panel: "panel-19",
     },
     {
       question: "Do you have a Code of Conduct?",
@@ -319,7 +319,7 @@ const Faq = () => {
         </p>
       ),
       category: ["all", "coc"],
-      panel: "panel-20"
+      panel: "panel-20",
     },
   ];
 
