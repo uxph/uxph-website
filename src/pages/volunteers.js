@@ -7,10 +7,7 @@ import {
   PerkItem,
 } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
-import { CheckCircle, NavigateNextRounded } from "@material-ui/icons";
-import { useMediaQuery } from "react-responsive";
 import { StaticImage } from "gatsby-plugin-image";
-import classNames from "classnames";
 
 const Volunteer = () => {
   const perks = [
