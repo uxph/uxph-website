@@ -6,8 +6,12 @@ import {
   SponsorItem,
   PerkItem,
   FeaturedItem,
+  Header,
+  Button
 } from "../components/Components";
 import { community_partners } from "../data/sponsors.json";
+import { StaticImage } from "gatsby-plugin-image";
+
 
 const Sponsorships = () => {
   const perks = [
@@ -51,6 +55,27 @@ const Sponsorships = () => {
   return (
     <Layout>
       <SEO title="Sponsorships" />
+      <Header 
+            content={
+              <>
+                  <h1 className="text-white header-title">Partner with UXPH</h1>
+                  <p className="text-white">UXPH is committed to collaborating with like-minded non-profit or commercial companies and organizations. We're always interested in partnership opportunities whether it is for new project, speaking engagements, workshops, or sponsorships. Learn more about what we can do together to support our causes!</p>
+                  <br />
+                  <p className="text-white margin-bottom-32"><b>Send us an email at partnerships@uxph.org</b> or download our Sponsorship Package to get started.</p>
+                  <Button variant="white" href="https://docs.google.com/forms/d/e/1FAIpQLSebupcyPib0ZjVih7kYqXWDyiTB0Q6Vv3R3hHaySNpWwGzUcQ/viewform" >Sign up to volunteer</Button>
+              </>
+          }
+          image={
+              <StaticImage
+                  src="../images/collages/volunteers-collage.png"
+                  layout="fullWidth"
+                  placeholder="blurred"
+                  outputPixelDensities={2}
+                  quality={100}
+                  className="featured-image"
+                  alt="Volunteer with us!"
+              />}
+      />
       <Box component="section" py={12}>
         <Container maxWidth="lg">
           <h2 className="font-size-32 text-dark">Partner with UXPH</h2>
