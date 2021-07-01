@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Kringle Garcia",
+    "role": "Volunteers Lead",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/angelakristinegarcia/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Kringle is currently working to improve the B2B experience as a UX Architect at Globe Telecom. A nerd at heart, she loves playing D&D and RPGs during her downtime, and dreams of studying abroad to further her education."
+    ]
+  },
+  {
+    "name": "Janyl Tamayo",
+    "role": "Events Lead",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/janyltamayo/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
+    ]
+  },
+  {
+    "name": "Chi Señires",
+    "role": "Marketing Lead",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/chisenires/",
+        "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://www.twitter.com/ChiSenires/",
+        "urlLabel": "twitter"
+      }
+    ],
+    "description": [
+      "Chi is a UX Designer, Front-End Web Developer, and a Product Manager.",
+
+      "She's currently working as a Product Manager at Cignal TV. Aside from her day job, she helps organize tech communities like UXPH and Figma PH.",
+
+      "When Chi isn't working, she spends her time riding her bike, scrolling through social media, playing games on her computer or Switch."
+    ]
+  },
+  {
+    "name": "MJ Yap",
+    "role": "Web Lead",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/mjarenyap/",
+        "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://www.twitter.com/mjarenyap/",
+        "urlLabel": "twitter"
+      }
+    ],
+    "description": [
+      "MJ is a Computer Science graduate who is the Co-Founder and former Chapter Head of User Experience Society-DLSU.",
+      "When it comes to learning new things and improving his skillsets, he is always eager especially if it means serving the community better.",
+      "He likes physical sports, gym workouts, guitars, cats and memes."
+    ]
+  },
+  {
+    "name": "Reine Bantang",
+    "role": "Creative Lead",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/reine-bantang/",
+        "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://www.twitter.com/reinebantang/",
+        "urlLabel": "twitter"
+      }
+    ],
+    "description": [
+      "Reine is a multimedia producer and occasional host who finds joy in film, theater, cats, and sushi. She is currently working with ABS-CBN Digital, and she is also affiliated with DLSU Radio: Green Giant FM and Juan Gadget."
+    ]
+  },
+  {
+    "name": "Din San Diego",
+    "role": "Research Lead",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/claudinesandiego/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
+      "An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
+    ]
+  }
+]

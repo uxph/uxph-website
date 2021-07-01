@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Aldrich Tan",
+    "role": "Managing Director",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/aldricht/",
+        "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://www.twitter.com/aldricht/",
+        "urlLabel": "twitter"
+      }
+    ],
+    "description": [
+      "Aldrich is an Sr. Experience Architect who has worked with multiple companies and industries in the US, Canada, and Philippines.",
+      "He is a passionate advocate for mentoring designers and building stronger design cultures with companies and organizations through consultancy and UXPH.",
+      "He enjoys PC gaming, Korean BBQ, steaks, giant salads, and puns (or a \"punnoseur\")."
+    ]
+  },
+  {
+    "name": "Jordan Deja",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/jrdndj/",
+        "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://www.twitter.com/jrdndj/",
+        "urlLabel": "twitter"
+      }
+    ],
+    "description": [
+      "Jordan became involved in UXPH when he was a speaker in the 2017 Conference. He moved behind the scenes as Volunteer Lead in the 2018 Conference and became the Over-all Lead with Aldrich Tan in 2019.",
+      "He is currently part of its Board of Directors, Lead for Speakers and Community Engagement. He is an HCI Researcher and a University Professor by profession. He is currently doing his PhD in Slovenia, Europe."
+    ]
+  },
+  {
+    "name": "Ely Apao",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/jozzua/",
+        "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://www.twitter.com/jozzua/",
+        "urlLabel": "twitter"
+      }
+    ],
+    "description": [
+      "One of the original founders of the UX Philippines community. Currently the customer experience manager for the digital transformation office of one of the Philippine's biggest conglomerates - JG Summit."
+    ]
+  },
+  {
+    "name": "VJ Francisco",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/vjfrancisco/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "VJ spent the last 20 years immersed in the field of design, learning and developing his skills in its creative, technical, and functional aspects.  His experience with all these gives him a unique perspective of the field and prepared him to become a thought leader recognized in the country’s UX Design industry.",
+      "As a design leader he takes on the role of the contrarian who tenaciously challenges norms and popular opinions to push his team to think beyond conventions and go towards innovation."
+    ]
+  },
+  {
+    "name": "Matthew Green",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/matthewagreen/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Matt is currently works as a Service Design Research consultant  for the Asian Development Bank. Over 20 years, he has had a variety of roles from a head of design, to a researcher, and to interaction designer for private, government, and military clients from San Francisco to Sydney. He consults on innovation and research in the areas of data display, service design, and enterprise applications."
+    ]
+  },
+  {
+    "name": "Tisha Ibasco",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/tisha-ibasco-41463063/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Fish Ibasco is a self-taught designer who gradually became one of the Experience Design Leads at Accenture Philippines. Throughout her 6 year journey in design, she has helped shape and build the UX practice in organizations. Now focusing on operations, she is passionate about finding ways to serve and empower designers in their careers."
+    ]
+  },
+  {
+    "name": "Chelle Obligacion-Gray",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/chelleogray/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Chelle Obligacion-Gray leads the Business Development, Product Development and Customer Experience of BLISS Insurance Digital Platform for Computer Professionals Inc. She also leads the AWS Partner Alliance for the organization helping companies with their Cloud Journey. Prior to joining CPI she was the Director of Growth at Thinking Machines Data Science (the leading Data Science and Machine Learning firm in the country).",
+      "She also lead Globe Telecom's Corporate Social Responsibility team with high-impact projects and initiatives on environment, education, volunteering and sustainability campaigns. She also worked in Google for 5 years managing developer communities and start-up ecosystems across Asia Pacific where she grew and nurtured the communities from 11 to over 50 chapters.",
+      "Chelle is a diversity and women empowerment advocate so she finds time to work and mentor girls and women. She loves tech, innovation, product dev, social good and data."
+    ]
+  },
+  {
+    "name": "Jen Teves, PhD",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/jenniferteves/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Jen is currently the Director for CX Research at Best Buy after her stints at other Fortune 100 companies in the US as a UX Researcher & Human Factors Scientist. She loves being in the company of learners that's why she also teaches graduate classes in UX Design at Kent State University's School of Information. Jen's not-so-secret passion is exploring the applications of design and psychology in nation-building, social programs, and counter-insurgency strategy."
+    ]
+  },
+  {
+    "name": "Artie Lopez",
+    "role": "Advisor",
+    "image_url": " ",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/artielopez/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Artie Lopez is a start-up coach, the Ambassador of Seedstars - Manila, Investment Manager at First Asia Venture Capital and co-founder of Brainsparks, the first and only \"founder-focused\" incubator in the Philippines. Brainsparks' vision is to \"Turn Dreamers into Founders\". He has over 15yrs of experience in the tech startup industry of Southeast Asia and is a passionate advocate of using technology and innovation to improve people's lives. Through Brainsparks, #StartupCoachArtie has supported countless startups develop their ideas, accelerate their growth, and raise funding from investors globally. #StartupCoachArtie and Brainsparks are happy to have successfully helped several PH Startups grow their company, and scale up their business. In his spare time, he also likes to support and mentor small local businesses and social enterprises."
+    ]
+  }
+]
