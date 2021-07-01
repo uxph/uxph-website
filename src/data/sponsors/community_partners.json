@@ -2,55 +2,61 @@
   {
     "name": "Brainsparks",
     "tier": "community",
-    "image_url": "sponsor_logos/brainsparks.png",
+    "image_url": "../images/sponsor_logos/brainsparks.png",
     "id": 1,
     "url": "https://www.brainsparks.ph/",
-    "width": "130px"
+    "width": "130px",
+    "isFeatured": true
   },
   {
     "name": "IDF - Interaction Design Foundation",
     "tier": "community",
-    "image_url": "sponsor_logos/idf.png",
+    "image_url": "../images/sponsor_logos/idf.png",
     "id": 2,
     "url": "https://www.interaction-design.org/",
-    "width": "130px"
+    "width": "130px",
+    "isFeatured": true
   },
   {
     "name": "Philippine Tech Leads Community",
     "tier": "community",
-    "image_url": "sponsor_logos/ptlc.png",
+    "image_url": "../images/sponsor_logos/ptlc.png",
     "id": 3,
     "url": "https://www.phtechcommunity.org/",
-    "width": "130px"
+    "width": "130px",
+    "isFeatured": true
   },
   {
     "name": "UXSEA - User Experience South East Asia Society",
     "tier": "community",
-    "image_url": "sponsor_logos/uxsea.png",
+    "image_url": "../images/sponsor_logos/uxsea.png",
     "id": 4,
     "url": "https://uxsea.org/",
-    "width": "130px"
+    "width": "130px",
+    "isFeatured": true
   },
   {
     "name": "CEBUXD - Cebu User Experience Design",
     "tier": "community",
-    "image_url": "sponsor_logos/cebuxd.png",
+    "image_url": "../images/sponsor_logos/cebuxd.png",
     "id": 5,
     "url": "https://www.facebook.com/CebUXD/",
-    "width": "130px"
+    "width": "130px",
+    "isFeatured": true
   },
   {
     "name": "UXDVO - User Experience Davao",
     "tier": "community",
-    "image_url": "sponsor_logos/uxdvo.png",
+    "image_url": "../images/sponsor_logos/uxdvo.png",
     "id": 6,
     "url": "https://www.facebook.com/uxdvo/",
-    "width": "130px"
+    "width": "130px",
+    "isFeatured": true
   },
   {
     "name": "Tech Shake",
     "tier": "community",
-    "image_url": "sponsor_logos/tech-shake.png",
+    "image_url": "../images/sponsor_logos/tech-shake.png",
     "id": 7,
     "url": "https://www.techshake.asia/",
     "width": "130px"
@@ -58,7 +64,7 @@
   {
     "name": "Figma Philippines",
     "tier": "community",
-    "image_url": "sponsor_logos/figma.png",
+    "image_url": "../images/sponsor_logos/figma.png",
     "id": 8,
     "url": "https://www.facebook.com/groups/FigmaPhilippines",
     "width": "130px"
@@ -66,7 +72,7 @@
   {
     "name": "Philippine Web Designers Organization",
     "tier": "community",
-    "image_url": "sponsor_logos/pwdo.png",
+    "image_url": "../images/sponsor_logos/pwdo.png",
     "id": 9,
     "url": "https://pwdo.org/",
     "width": "130px"
@@ -74,7 +80,7 @@
   {
     "name": "Edukasyon.ph",
     "tier": "community",
-    "image_url": "sponsor_logos/edukasyon.png",
+    "image_url": "../images/sponsor_logos/edukasyon.png",
     "id": 10,
     "url": "https://portal.edukasyon.ph",
     "width": "130px"
@@ -82,7 +88,7 @@
   {
     "name": "Developh",
     "tier": "community",
-    "image_url": "sponsor_logos/developh-circle.png",
+    "image_url": "../images/sponsor_logos/developh-circle.png",
     "id": 11,
     "url": "https://developh.org/",
     "width": "130px"
@@ -90,7 +96,7 @@
   {
     "name": "CHI MNL",
     "tier": "community",
-    "image_url": "sponsor_logos/chi-mnl.png",
+    "image_url": "../images/sponsor_logos/chi-mnl.png",
     "id": 12,
     "url": "https://sigchimnl.org/",
     "width": "130px"
@@ -98,7 +104,7 @@
   {
     "name": "PWA Pilipinas",
     "tier": "community",
-    "image_url": "sponsor_logos/pwa.png",
+    "image_url": "../images/sponsor_logos/pwa.png",
     "id": 13,
     "url": "https://pwapilipinas.org/",
     "width": "130px"

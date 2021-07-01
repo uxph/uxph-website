@@ -18,41 +18,42 @@ const uxphTheme = createMuiTheme({
     ].join(","),
 
     body1: {
-      color: "#6c757d",
+      color: "#425a74",
+      lineHeight: "1.9rem",
     },
 
     h1: {
       fontWeight: 700,
-      color: "#495057",
+      color: "#1e354d",
       fontSize: "3rem",
     },
 
     h2: {
       fontWeight: 700,
-      color: "#495057",
+      color: "#1e354d",
       fontSize: "2rem",
     },
 
     h3: {
       fontWeight: 700,
-      color: "#495057",
+      color: "#1e354d",
       fontSize: "1.5rem",
     },
 
     h4: {
       fontWeight: 700,
-      color: "#495057",
+      color: "#1e354d",
       fontSize: "1.125rem",
     },
 
     h5: {
       fontWeight: 700,
-      color: "#495057",
+      color: "#1e354d",
     },
 
     h6: {
       fontWeight: 700,
-      color: "#495057",
+      color: "#1e354d",
     },
 
     overline: {
