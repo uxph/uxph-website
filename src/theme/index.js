@@ -22,6 +22,12 @@ const uxphTheme = createMuiTheme({
       lineHeight: "1.9rem",
     },
 
+    body2: {
+      color: "#425a74",
+      fontSize: "0.875rem",
+      lineHeight: "1.5rem",
+    },
+
     h1: {
       fontWeight: 700,
       color: "#1e354d",

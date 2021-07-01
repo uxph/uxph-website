@@ -142,7 +142,7 @@ const IndexPage = () => {
           </Grid>
         </Container>
       </Box>
-      <Box component="section" py={12}>
+      <Box component="section" py={14}>
         <Container maxWidth="lg">
           <Grid container spacing={6} alignItems="center">
             <Grid item md={6} sm={6}>
