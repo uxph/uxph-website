@@ -3,7 +3,7 @@ import { Layout, SEO, Button, Header } from "../components/Components";
 import { Container, Box, Grid, Typography } from "@material-ui/core";
 import { NavigateNextRounded, CheckRounded } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
-// import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-lazy-load-image-component/src/effects/opacity.css";
@@ -69,23 +69,24 @@ const IndexPage = () => {
           </>
         }
         image={
-          <LazyLoadImage
+          <StaticImage
             src="../images/collages/homepage-collage.png"
-            width="100%"
-            alt="Welcome to UXPH"
-            effect="opacity"
+            layout="fullWidth"
+            placeholder="blurred"
+            outputPixelDensities={2}
+            quality={100}
             className="featured-image"
+            alt="Welcome to UXPH"
           />
         }
       />
-      {/* <StaticImage
+
+      {/* <LazyLoadImage
         src="../images/collages/homepage-collage.png"
-        layout="fullWidth"
-        placeholder="blurred"
-        outputPixelDensities={2}
-        quality={100}
-        className="featured-image"
+        width="100%"
         alt="Welcome to UXPH"
+        effect="opacity"
+        className="featured-image"
       /> */}
       <Box component="section" py={14}>
         <Container maxWidth="lg">
