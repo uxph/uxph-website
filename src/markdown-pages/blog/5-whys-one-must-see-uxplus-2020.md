@@ -1,13 +1,11 @@
 ---
+slug: "/blog/5-whys-one-must-see-uxplus-2020"
+date: "2020-09-05"
 title: "5 Whys one must see UX+ 2020"
-date: 2020-09-05T00:00:00+08:00
-draft: false
-page: "pages/blogs"
-type: "blog"
-active: 4
-publish: "September 5, 2020"
+type: blog
 cover: "https://miro.medium.com/max/700/1*qnjk5qJsKF5xth90-2ApLg.jpeg"
 header: "photo"
+#active: 4
 ---
 
 > This article was originally published on [Medium](https://medium.com/uxph/5-whys-one-must-see-ux-2020-a99f0d99226).
@@ -36,10 +34,10 @@ Almost every professional wants to advance their careers and designers are no ex
 
 The round table discussion will be filled by four Filipino designers who made it big in this industry. I really hope their thoughts can give us tips on how to enhance our UX careers.
 
-* [Justine Win Cañete](https://2020.uxpl.us/speakers/justine-canete) — Product Designer, _Shopify_
-* [Andrei Gonzales](https://2020.uxpl.us/speakers/andrei-gonzales) — Senior Experience Architect, _Salesforce_
-* [Riel Mosqueriola](https://2020.uxpl.us/speakers/riel-mosqueriola) — Ex-Product Designer, _Grab_
-* [Marianne Ho](https://2020.uxpl.us/speakers/marianne-ho) — UX Lead, _HSBC_
+-   [Justine Win Cañete](https://2020.uxpl.us/speakers/justine-canete) — Product Designer, _Shopify_
+-   [Andrei Gonzales](https://2020.uxpl.us/speakers/andrei-gonzales) — Senior Experience Architect, _Salesforce_
+-   [Riel Mosqueriola](https://2020.uxpl.us/speakers/riel-mosqueriola) — Ex-Product Designer, _Grab_
+-   [Marianne Ho](https://2020.uxpl.us/speakers/marianne-ho) — UX Lead, _HSBC_
 
 ## 3. Self-Discovery, and Finding Opportunities as a Designer
 
@@ -75,13 +73,13 @@ I added this particular talk as I feel that this may aid UX newbies on their ini
 
 Being this year’s official partner, _Adobe XD_ is sending their very own Sr. Experience Designer [Ainsley Wagoner](https://2020.uxpl.us/speakers/ainsley-wagoner) to brief us on the wonders of using _Adobe XD_. I suggest UX newbies should listen to her talk as Ainsley might show us a demo showcasing its features. Another reason why I recommend trying out _Adobe XD_ is that it offers a free Starter plan for beginners. Finally, take note that due to the ongoing pandemic, which forced office closures, they have offered Starter plan users [unlimited shared documents, editors, and shared links](https://helpx.adobe.com/sea/xd/kb/enable-remote-work-covid-19.html) until October 2020.
 
-***
+---
 
 UX+ Conference 2020 is definitely pushing through and COVID-19 won’t hinder the design community from learning. Aside from the ones listed above, there are other interesting topics to expect that may even attract non-UX practitioners. An online conference might not be as exciting as attending a physical one, but I guarantee that this year’s conference would still generate fruitful discussions. Besides, the talks will be recorded and attendees will have access to them until the end of the year.
 
 If you haven’t bought your tickets yet, you still have time before it officially commences on September 12. I’m eager to make connections with the organizers and other attendees, and I wish that I could work with some of you in the near future. But for now, we all know we have one thing to do this coming weekend — click (or tap) that _Log In_ button.
 
-***
+---
 
 ![](https://miro.medium.com/max/250/1*zXOCp5U0BUD3yisJFd2HTw.jpeg#small)
 
@@ -92,7 +90,7 @@ Visit their website for more details: [**2020.uxpl.us**](https://2020.uxpl.us/)
 Follow the UX+Conference on social media:
 [**Facebook**](http://facebook.com/uxplusconf) | [**Twitter**](http://twitter.com/uxplusconf) | [**Instagram**](http://instagram.com/uxplusconf) | [**LinkedIn**](https://www.linkedin.com/company/uxplusconference/)
 
-***
+---
 
 ## Get involved in the UXPH community!
 
