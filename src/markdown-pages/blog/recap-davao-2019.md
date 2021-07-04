@@ -1,13 +1,14 @@
 ---
 title: "Recap: UXPH Roadshow 2019, Davao"
-date: 2019-05-10T18:56:48+08:00
-draft: false
-page: "pages/events"
-type: "event"
-active: 2
-publish: "September 28, 2019"
+date: "2019-05-10"
+slug: "/blog/recap-davao-2019"
+type: "blog"
 cover: "https://roadshow.uxph.org/uploads/image01.jpg"
 header: "photo"
+#page: "pages/events"
+#active: 2
+draft: false
+
 ---
 
 On September 28, 2019, UXPH (User Experience Philippines) held the second leg of their first ever National Roadshow across the Philippines, and landed in Davao City.

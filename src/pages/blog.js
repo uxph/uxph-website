@@ -1,9 +1,12 @@
 import React from "react";
 import { Layout, SEO, BlogItem } from "../components/Components";
 import { Box, Container, Grid } from "@material-ui/core";
-import blogs from "../data/blogs";
+import { graphql } from 'gatsby';
 
-const blogPage = () => {
+
+const blogPage = ({data}) => {
+  const blogs = data.allMarkdownRemark.edges;
+
   return (
     <Layout>
       <SEO title="Blogs" />
@@ -24,5 +27,26 @@ const blogPage = () => {
     </Layout>
   );
 };
+
+export const dataquery = graphql`
+query BlogsQuery {
+  allMarkdownRemark(filter: {frontmatter: {type: {eq: "blog"}}}) {
+    edges {
+      node {
+        frontmatter {
+          slug
+          title
+          cover
+          date
+          type
+        }
+        html
+      }
+    }
+  }
+}
+
+`;
+
 
 export default blogPage;

@@ -5,8 +5,8 @@ import { Button } from "../Components";
 import { NavigateNextRounded } from "@material-ui/icons";
 
 const BlogItem = ({ blog }) => {
-  const { name, description, image_banner_url, date } = blog;
-
+  const { date, slug, cover, title } = blog.node.frontmatter;
+  const description = blog.node.html.replace(/(<([^>]+)>)/gi, "");
   return (
     <Link to="/">
       <Box p={1} borderRadius={8} className="blog_item">
@@ -19,11 +19,11 @@ const BlogItem = ({ blog }) => {
           overflow="hidden"
           mb={2}
         >
-          <img src={image_banner_url} className="featured_image" alt={name} />
+          <img src={cover} className="featured_image" alt={title} />
         </Box>
         <Box p={1}>
           <h3 className="margin-bottom-8 font-size-18 line-height-24 blog_title">
-            {name}
+            {title}
           </h3>
           <p className="text-gray margin-bottom-16 blog_description font-size-14 line-height-24 two-liner">
             {description}
@@ -41,7 +41,7 @@ const BlogItem = ({ blog }) => {
               <small className="text-gray">{date}</small>
             </Box>
           </Box>
-          <Button variant="link" href={null} className="blog_cta">
+          <Button variant="link" href={slug} className="blog_cta">
             <span className="text-uppercase">Read more</span>
             <NavigateNextRounded />
           </Button>

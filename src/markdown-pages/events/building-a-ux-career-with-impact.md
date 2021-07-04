@@ -1,13 +1,16 @@
 ---
+slug: "/events/building-a-ux-career-with-impact"
 title: "Building a UX Career with Impact"
-date: 2020-07-30T18:56:48+08:00
-draft: false
-page: "pages/events"
+date: "2020-07-30"
+time: "8:30PM - 9:30PM"
 type: "event"
-active: 2
-publish: "August 27, 2020"
-cover: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdevelophorg%2Fvideos%2F422376995403064%2F&show_text=0&width=560"
-header: "video"
+venue: "Livestream via Zoom and Facebook"
+cover: "/images/events/ux-career-with-impact.jpg"
+header: "photo"
+
+#active: 2
+#draft: false
+#page: "pages/events"
 ---
 
 <p>

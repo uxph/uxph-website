@@ -1,13 +1,14 @@
 ---
+slug: "/blog/a-designers-diary-of-uxph-conference-2020-day-2"
 title: "A Designer’s Diary of UXPH Conference 2020: Day 2"
-date: 2020-12-02T00:00:00+08:00
-draft: false
-page: "pages/blogs"
-type: "blog"
-active: 4
-publish: "December 3, 2020"
+date: "2020-12-02"
+type: blog
 cover: "https://miro.medium.com/max/2000/1*Bz_zDFdvXZ-gHx2QtJWqeg.jpeg"
 header: "photo"
+
+#draft: false
+#page: "pages/blogs"
+#active: 4
 ---
 
 > This article was originally published on [Medium](https://medium.com/uxph/a-designers-diary-of-uxph-conference-2020-day-2-3adf53f9afb0).

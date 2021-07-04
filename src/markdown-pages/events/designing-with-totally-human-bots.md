@@ -1,13 +1,16 @@
 ---
+slug: "/events/designing-with-totally-human-bots"
 title: "Designing with Totally Human Bots"
-date: 2020-07-30T18:56:48+08:00
-draft: false
-page: "pages/events"
+date: "2020-07-30"
+time: "7PM - 9PM"
 type: "event"
-active: 2
-publish: "July 30, 2020"
-cover: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fuxphofficial%2Fvideos%2F3017092118339914%2F&show_text=0&width=560"
-header: "video"
+cover: "/images/events/designing-totally-human-bots.jpg"
+header: "photo"
+venue: "Livestream via Zoom and Facebook Live"
+
+#active: 2
+#draft: false
+#page: "pages/events"
 ---
 
 <p>

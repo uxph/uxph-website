@@ -1,13 +1,17 @@
 ---
 title: "RemoteFFC #1: Enhanced Work from Home"
-date: 2020-04-03T18:56:48+08:00
-draft: false
-page: "pages/events"
+date: "2020-04-03"
+slug: "/events/remote-ffc"
 type: "event"
-active: 2
-publish: "April 3, 2020"
-cover: "https://www.youtube.com/embed/-amLnZxpDEA?version=3&amp;frameborder=0&amp;allow=accelerometer&amp;autoplay&amp;encrypted-media&amp;gyroscope&amp;picture-in-picture"
-header: "video"
+time: "7PM - 10PM"
+cover: "/images/events/enhanced-work-from-home.png"
+header: "photo"
+venue: "Livestream via Zoom and YouTube"
+
+#active: 2
+#page: "pages/events"
+#publish: "April 3, 2020"
+#draft: false
 ---
 
 <p>Just because you're getting used to working at home doesn't mean you can't do your best work.</p>

@@ -1,11 +1,9 @@
 ---
 title: "The Role of UXR in the Philippines’ Rising Startup Scene"
-date: 2020-07-17T00:00:00+08:00
-draft: false
-page: "pages/blogs"
+date: "2020-07-17"
+slug: "/blog/role-of-uxr-in-ph-rising-startup-scene"
 type: "blog"
 active: 4
-publish: "July 17, 2020"
 cover: "https://miro.medium.com/max/700/1*qSVqJ3GlXEm_WLh40ew1HA.png"
 header: "photo"
 ---

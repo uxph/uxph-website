@@ -1,13 +1,14 @@
 ---
+slug: "/blog/a-designers-diary-of-uxph-conference-2020-reflections-on-navigating-change"
 title: "A Designer’s Diary of UXPH Conference 2020: Reflections on Navigating Change"
-date: 2020-12-04T00:00:00+08:00
-draft: false
-page: "pages/blogs"
-type: "blog"
-active: 4
-publish: "December 4, 2020"
+date: "2020-12-04"
+type: blog
 cover: "https://miro.medium.com/max/2000/1*thyTRv1SHyKt-ArSMXDLcg.jpeg"
 header: "photo"
+
+#draft: false
+#page: "pages/blogs"
+#active: 4
 ---
 
 > This article was originally published on [Medium](https://medium.com/uxph/a-designers-diary-of-uxph-conference-2020-reflections-on-navigating-change-4ceb04a87c27).

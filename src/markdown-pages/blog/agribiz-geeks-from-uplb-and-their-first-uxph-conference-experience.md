@@ -1,13 +1,13 @@
 ---
+slug: "/blog/agribiz-geeks-from-uplb-and-their-first-uxph-conference-experience"
 title: "Agribiz geeks from UPLB and their first UXPH Conference experience"
-date: 2020-11-27T00:00:00+08:00
-draft: false
-page: "pages/blogs"
-type: "blog"
-active: 4
-publish: "November 27, 2020"
+date: "2020-11-27"
+type: blog
 cover: "https://miro.medium.com/max/2000/1*YpfzI97pdgvrLLYmAwlYJA.jpeg"
 header: "photo"
+#draft: false
+#page: "pages/blogs"
+#active: 4
 ---
 
 > This article was originally published on [Medium](https://medium.com/uxph/agribiz-geeks-from-uplb-and-their-first-uxph-conference-experience-eca3c5a50406).

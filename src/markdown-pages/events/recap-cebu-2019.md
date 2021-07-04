@@ -1,11 +1,10 @@
 ---
+slug: "/events/recap-cebu-2019" 
+date: "2019-06-09"
+time: "9AM - 5PM"
 title: "Recap: UXPH Roadshow 2019, Cebu"
-date: 2019-06-09T18:56:48+08:00
-draft: false
-page: "pages/events"
 type: "event"
-active: 2
-publish: "August 31, 2019"
+venue: "The Company CEBU (Cebu IT Park)"
 cover: "https://roadshow.uxph.org/uploads/class.jpg"
 header: "photo"
 ---

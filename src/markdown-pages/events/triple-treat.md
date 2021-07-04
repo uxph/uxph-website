@@ -1,13 +1,15 @@
 ---
 title: "Triple Treat"
-date: 2020-02-10T18:56:48+08:00
-draft: false
-page: "pages/events"
+date: "2020-05-28"
+time: "7PM - 10PM"
+slug: "events/triple-treat"
 type: "event"
-active: 2
+#page: "pages/events"
+#active: 2
 publish: "May 28, 2020"
-cover: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fuxphofficial%2Fvideos%2F1227865507549467%2F&show_text=0&width=560"
-header: "video"
+cover: "/images/events/tripletreat.jpg"
+header: "photo"
+venue: "Livestream via Zoom and Facebook Live"
 ---
 
 <p>Beat the heat 🔥 with our Triple Treat online meetup! We've got an international lineup of speakers from Best Buy, Aleph, and AXA Philippines</p>

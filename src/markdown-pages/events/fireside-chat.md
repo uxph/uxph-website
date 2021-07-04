@@ -1,12 +1,11 @@
 ---
+slug: "/events/fireside-chat"
+date: "2020-05-07"
 title: "Fireside Chat #1: KamUXtahan with UXPH"
-date: 2020-05-07T18:56:48+08:00
-draft: false
-page: "pages/events"
 type: "event"
-active: 2
-publish: "May 7, 2020"
-cover: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/95489847_1373091676229233_8201740376747278336_o.png?_nc_cat=107&_nc_sid=dd9801&_nc_ohc=UjxHN1Hzkt4AX-UU7D5&_nc_ht=scontent.fmnl17-2.fna&oh=abb1ac94aea5a1bb084a14e98818447f&oe=5ED943CD"
+time: "7PM - 9PM"
+venue: "Livestream via Zoom and Facebook Live"
+cover: "/images/events/fireside-chat-cover.png"
 header: "photo"
 ---
 
