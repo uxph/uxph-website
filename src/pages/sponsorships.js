@@ -5,7 +5,6 @@ import {
   SEO,
   SponsorItem,
   PerkItem,
-  FeaturedItem,
   Header,
   Button,
 } from "../components/Components";
