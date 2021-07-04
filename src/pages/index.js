@@ -72,7 +72,7 @@ const IndexPage = () => {
           <StaticImage
             src="../images/collages/homepage-collage.png"
             layout="fullWidth"
-            placeholder="blurred"
+            placeholder="none"
             outputPixelDensities={2}
             quality={100}
             className="featured-image"
@@ -138,22 +138,22 @@ const IndexPage = () => {
               </Button>
             </Grid>
             <Grid item md={6} sm={6}>
-              {/* <StaticImage
+              <StaticImage
                 src="../images/collages/team-section-collage.png"
                 layout="fullWidth"
-                placeholder="blurred"
+                placeholder="none"
                 outputPixelDensities={2}
                 quality={100}
                 alt="Be part of the organizing team"
                 className="featured-image-right"
-              /> */}
-              <LazyLoadImage
+              />
+              {/* <LazyLoadImage
                 src="../images/collages/team-section-collage.png"
                 width="100%"
                 alt="Be part of the organizing team"
                 effect="opacity"
                 className="featured-image-right"
-              />
+              /> */}
             </Grid>
           </Grid>
         </Container>
@@ -162,22 +162,22 @@ const IndexPage = () => {
         <Container maxWidth="lg">
           <Grid container spacing={6} alignItems="center">
             <Grid item md={6} sm={6}>
-              {/* <StaticImage
+              <StaticImage
                 src="../images/collages/sponsors-section-collage.png"
                 layout="fullWidth"
-                placeholder="blurred"
+                placeholder="none"
                 outputPixelDensities={2}
                 quality={100}
                 alt="Be a community partner"
                 className="featured-image-left"
-              /> */}
-              <LazyLoadImage
+              />
+              {/* <LazyLoadImage
                 src="../images/collages/sponsors-section-collage.png"
                 width="100%"
                 alt="Be a community partner"
                 effect="opacity"
                 className="featured-image-left"
-              />
+              /> */}
             </Grid>
             <Grid item md={6} sm={6}>
               <Typography variant="h2" className="margin-bottom-16">
