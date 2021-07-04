@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, SEO, Button, Header } from "../components/Components";
 import { Box, Typography, Container, Grid } from "@material-ui/core";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 import {
   PeopleRounded,
   EmojiEventsRounded,
@@ -138,17 +138,24 @@ const AboutPage = () => {
           </>
         }
         image={
-          <StaticImage
+          <LazyLoadImage
             src="../images/collages/about-uxph-collage.png"
-            layout="fullWidth"
-            placeholder="blurred"
-            outputPixelDensities={2}
-            quality={100}
+            width="100%"
+            alt="About UXPH"
+            effect="opacity"
             className="featured-image"
-            alt="Welcome to UXPH"
           />
         }
       />
+      {/* <StaticImage
+        src="../images/collages/about-uxph-collage.png"
+        layout="fullWidth"
+        placeholder="blurred"
+        outputPixelDensities={2}
+        quality={100}
+        className="featured-image"
+        alt="About UXPH"
+      /> */}
       <Box component="section" py={12}>
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">

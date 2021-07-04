@@ -3,9 +3,10 @@ import { Layout, SEO, Button, Header } from "../components/Components";
 import { Container, Box, Grid, Typography } from "@material-ui/core";
 import { NavigateNextRounded, CheckRounded } from "@material-ui/icons";
 import { useMediaQuery } from "react-responsive";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 import community_partners from "../data/sponsors/community_partners.json";
 
@@ -68,17 +69,24 @@ const IndexPage = () => {
           </>
         }
         image={
-          <StaticImage
+          <LazyLoadImage
             src="../images/collages/homepage-collage.png"
-            layout="fullWidth"
-            placeholder="blurred"
-            outputPixelDensities={2}
-            quality={100}
-            className="featured-image"
+            width="100%"
             alt="Welcome to UXPH"
+            effect="opacity"
+            className="featured-image"
           />
         }
       />
+      {/* <StaticImage
+        src="../images/collages/homepage-collage.png"
+        layout="fullWidth"
+        placeholder="blurred"
+        outputPixelDensities={2}
+        quality={100}
+        className="featured-image"
+        alt="Welcome to UXPH"
+      /> */}
       <Box component="section" py={14}>
         <Container maxWidth="lg">
           <Grid
@@ -129,13 +137,20 @@ const IndexPage = () => {
               </Button>
             </Grid>
             <Grid item md={6} sm={6}>
-              <StaticImage
+              {/* <StaticImage
                 src="../images/collages/team-section-collage.png"
                 layout="fullWidth"
                 placeholder="blurred"
                 outputPixelDensities={2}
                 quality={100}
                 alt="Be part of the organizing team"
+                className="featured-image-right"
+              /> */}
+              <LazyLoadImage
+                src="../images/collages/team-section-collage.png"
+                width="100%"
+                alt="Be part of the organizing team"
+                effect="opacity"
                 className="featured-image-right"
               />
             </Grid>
@@ -146,13 +161,20 @@ const IndexPage = () => {
         <Container maxWidth="lg">
           <Grid container spacing={6} alignItems="center">
             <Grid item md={6} sm={6}>
-              <StaticImage
+              {/* <StaticImage
                 src="../images/collages/sponsors-section-collage.png"
                 layout="fullWidth"
                 placeholder="blurred"
                 outputPixelDensities={2}
                 quality={100}
                 alt="Be a community partner"
+                className="featured-image-left"
+              /> */}
+              <LazyLoadImage
+                src="../images/collages/sponsors-section-collage.png"
+                width="100%"
+                alt="Be a community partner"
+                effect="opacity"
                 className="featured-image-left"
               />
             </Grid>
