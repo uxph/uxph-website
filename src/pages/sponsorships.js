@@ -40,7 +40,7 @@ const Sponsorships = () => {
       image: "images/brand/uxph_icon.png",
       heading: "Sponsorship",
       description:
-        "If you'd like to become a sponsor of UXPH to some capacity, please download our sponsorship package for more information or contact partnerships@uxph.org.",
+        "UXPH is always looking for passionate and enthusiastic individuals who want to be a part of the growing Filipino design community! Whether you're a professional, student, or simply a design enthusiast, we're happy to have you join us!",
       url: null,
     },
     {
@@ -95,7 +95,7 @@ const Sponsorships = () => {
           <Grid container spacing={4} alignItems="center">
             <Grid item md={6} sm={12}>
               <StaticImage
-                src="../images/collages/volunteers-collage.png"
+                src="../images/collages/sponsorship-collage.png"
                 layout="fullWidth"
                 placeholder="blurred"
                 outputPixelDensities={2}
@@ -108,8 +108,10 @@ const Sponsorships = () => {
             <Grid item md={6} sm={12}>
               {featured.map((feature, index) => {
                 return (
-                  <Box component="div" className="margin-bottom-12">
-                    <h3>{feature.heading}</h3>
+                  <Box component="div" className="margin-bottom-32">
+                    <h3 className="font-size-32 margin-bottom-16">
+                      {feature.heading}
+                    </h3>
                     <p>{feature.description}</p>
                   </Box>
                 );
@@ -142,7 +144,7 @@ const Sponsorships = () => {
           <Grid container spacing={4} justify="center">
             {community_partners.map((sponsor, index) => {
               return (
-                <Grid item md={3} key={index}>
+                <Grid item xs={6} md={3} key={index}>
                   <SponsorItem sponsor={sponsor} />
                 </Grid>
               );

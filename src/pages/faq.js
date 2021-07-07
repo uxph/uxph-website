@@ -3,8 +3,10 @@ import { Container, Box, Grid, Tabs, Tab } from "@material-ui/core";
 import { Layout, SEO, FaqItem } from "../components/Components";
 import categories from "../helpers/faq_categories";
 import classNames from "classnames";
+import { useMediaQuery } from "react-responsive";
 const Faq = () => {
   const [value, setValue] = useState("all");
+  const isMobileView = useMediaQuery({ query: "(max-device-width: 959px)" });
   const faq_items = [
     {
       question: "What are UXPH events like?",
@@ -330,10 +332,10 @@ const Faq = () => {
         <Container maxWidth="md">
           <h1 className="margin-bottom-32">Frequently Asked Questions</h1>
           <Grid container spacing={4}>
-            <Grid item md={3}>
+            <Grid item md={3} style={{ maxWidth: `100%` }}>
               <Tabs
                 value={value}
-                orientation="vertical"
+                orientation={isMobileView ? "horizontal" : "vertical"}
                 variant="scrollable"
                 onChange={(event, newValue) => {
                   setValue(newValue);
