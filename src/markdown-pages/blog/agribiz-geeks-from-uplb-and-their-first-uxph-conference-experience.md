@@ -2,7 +2,7 @@
 slug: "/blog/agribiz-geeks-from-uplb-and-their-first-uxph-conference-experience"
 title: "Agribiz geeks from UPLB and their first UXPH Conference experience"
 date: "2020-11-27"
-type: blog
+type: "blog"
 cover: "https://miro.medium.com/max/2000/1*YpfzI97pdgvrLLYmAwlYJA.jpeg"
 header: "photo"
 #draft: false

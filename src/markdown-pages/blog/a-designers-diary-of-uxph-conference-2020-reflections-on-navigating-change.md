@@ -2,7 +2,7 @@
 slug: "/blog/a-designers-diary-of-uxph-conference-2020-reflections-on-navigating-change"
 title: "A Designer’s Diary of UXPH Conference 2020: Reflections on Navigating Change"
 date: "2020-12-04"
-type: blog
+type: "blog"
 cover: "https://miro.medium.com/max/2000/1*thyTRv1SHyKt-ArSMXDLcg.jpeg"
 header: "photo"
 

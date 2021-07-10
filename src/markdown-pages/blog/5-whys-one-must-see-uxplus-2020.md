@@ -2,7 +2,7 @@
 slug: "/blog/5-whys-one-must-see-uxplus-2020"
 date: "2020-09-05"
 title: "5 Whys one must see UX+ 2020"
-type: blog
+type: "blog"
 cover: "https://miro.medium.com/max/700/1*qnjk5qJsKF5xth90-2ApLg.jpeg"
 header: "photo"
 #active: 4

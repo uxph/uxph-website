@@ -2,7 +2,7 @@
 slug: "/blog/recap-cebu-2019"
 date: "2019-06-09"
 title: "Recap: UXPH Roadshow 2019, Cebu"
-type: blog
+type: "blog"
 cover: "https://roadshow.uxph.org/uploads/class.jpg"
 header: "photo"
 ---

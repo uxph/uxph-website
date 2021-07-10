@@ -2,7 +2,7 @@
 slug: "/blog/a-designers-diary-of-uxph-conference-2020-day-1"
 title: "A Designer’s Diary of UXPH Conference 2020: Day 1"
 date: "2020-12-02"
-type: blog
+type: "blog"
 cover: "https://miro.medium.com/max/2000/1*Jp2T9DXXeb90fpLXNhrdNw.jpeg"
 header: "photo"
 #page: "pages/blogs"

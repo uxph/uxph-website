@@ -2,7 +2,7 @@
 slug: "/blog/learning-to-be-inquisitive"
 date: "2020-07-13"
 title: "Learning to be inquisitive: reflections from a beginner’s perspective"
-type: blog
+type: "blog"
 cover: "https://miro.medium.com/max/1000/1*MyW7S1V-r3p1FGNxLpVU-Q.jpeg"
 header: "photo"
 ---

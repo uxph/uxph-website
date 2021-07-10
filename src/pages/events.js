@@ -8,14 +8,15 @@ import {
   Button,
 } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
-//import events from "../data/events";
 
 const EventsPage = ({data}) => {
+
   // const hostFeature = {
   //   heading: "Host your own UXPH event (Coming Soon!)",
   //   description:
   //     "Have an event idea? You can host your own UXPH-sanctioned event!",
   // };
+
   const events = data.allMarkdownRemark.edges;
   console.log (events);
   const featuredEvent = events[0].node.frontmatter;
@@ -62,7 +63,6 @@ console.log(featuredEvent);
           <h2 className="margin-bottom-32 font-size-40">Past Events</h2>
           <Grid container spacing={3}>
             {events.map((event, index) => {
-              //console.log (event);
               return index !== 0 ? (
                 <Grid item md={4} key={index}>
                   <EventItem event={event} />

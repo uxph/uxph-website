@@ -2,7 +2,7 @@
 slug: "/blog/ready-set-research"
 date: "2020-07-15"
 title: "Ready, Set, Research! 3 Things You Need to Know as a Fresh UX Researcher"
-type: blog
+type: "blog"
 cover: "https://cdn-images-1.medium.com/max/800/1*SxCd_tQ0Oji-XRM23frYZQ.png"
 header: "photo"
 ---

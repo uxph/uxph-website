@@ -2,7 +2,7 @@
 slug: "/blog/attending-asias-largest-ux-event-as-a-scholar"
 date: "2020-09-05"
 title: "Attending Asia’s largest UX event as a scholar!"
-type: blog
+type: "blog"
 cover: "https://miro.medium.com/max/700/0*B_owcQpugXNQbbVu"
 header: "photo"
 ---
