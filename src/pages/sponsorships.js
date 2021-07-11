@@ -5,9 +5,11 @@ import {
   SEO,
   SponsorItem,
   PerkItem,
-  FeaturedItem,
+  Header,
+  Button,
 } from "../components/Components";
 import { community_partners } from "../data/sponsors.json";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Sponsorships = () => {
   const perks = [
@@ -37,7 +39,7 @@ const Sponsorships = () => {
       image: "images/brand/uxph_icon.png",
       heading: "Sponsorship",
       description:
-        "If you'd like to become a sponsor of UXPH to some capacity, please download our sponsorship package for more information or contact partnerships@uxph.org.",
+        "UXPH is always looking for passionate and enthusiastic individuals who want to be a part of the growing Filipino design community! Whether you're a professional, student, or simply a design enthusiast, we're happy to have you join us!",
       url: null,
     },
     {
@@ -51,21 +53,69 @@ const Sponsorships = () => {
   return (
     <Layout>
       <SEO title="Sponsorships" />
+      <Header
+        content={
+          <>
+            <h1 className="text-white header-title">Partner with UXPH</h1>
+            <p className="text-white">
+              UXPH is committed to collaborating with like-minded non-profit or
+              commercial companies and organizations. We're always interested in
+              partnership opportunities whether it is for new project, speaking
+              engagements, workshops, or sponsorships. Learn more about what we
+              can do together to support our causes!
+            </p>
+            <br />
+            <p className="text-white margin-bottom-32">
+              <b>Send us an email at partnerships@uxph.org</b> or download our
+              Sponsorship Package to get started.
+            </p>
+            <Button
+              variant="white"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSebupcyPib0ZjVih7kYqXWDyiTB0Q6Vv3R3hHaySNpWwGzUcQ/viewform"
+            >
+              Sign up to volunteer
+            </Button>
+          </>
+        }
+        image={
+          <StaticImage
+            src="../images/collages/volunteers-collage.png"
+            layout="fullWidth"
+            placeholder="blurred"
+            outputPixelDensities={2}
+            quality={100}
+            className="featured-image"
+            alt="Volunteer with us!"
+          />
+        }
+      />
       <Box component="section" py={12}>
         <Container maxWidth="lg">
-          <h2 className="font-size-32 text-dark">Partner with UXPH</h2>
-        </Container>
-      </Box>
-      <Box component="section" py={12}>
-        <Container maxWidth="md">
-          <Grid container spacing={4}>
-            {featured.map((feature, index) => {
-              return (
-                <Grid item md={6} key={index}>
-                  <FeaturedItem item={feature} />
-                </Grid>
-              );
-            })}
+          <Grid container spacing={4} alignItems="center">
+            <Grid item md={6} sm={12}>
+              <StaticImage
+                src="../images/collages/sponsorship-collage.png"
+                layout="fullWidth"
+                placeholder="blurred"
+                outputPixelDensities={2}
+                quality={100}
+                className="featured-image"
+                alt="Volunteer with us!"
+              />
+            </Grid>
+
+            <Grid item md={6} sm={12}>
+              {featured.map((feature, index) => {
+                return (
+                  <Box component="div" className="margin-bottom-32">
+                    <h3 className="font-size-32 margin-bottom-16">
+                      {feature.heading}
+                    </h3>
+                    <p>{feature.description}</p>
+                  </Box>
+                );
+              })}
+            </Grid>
           </Grid>
         </Container>
       </Box>
@@ -93,7 +143,7 @@ const Sponsorships = () => {
           <Grid container spacing={4} justify="center">
             {community_partners.map((sponsor, index) => {
               return (
-                <Grid item md={3} key={index}>
+                <Grid item xs={6} md={3} key={index}>
                   <SponsorItem sponsor={sponsor} />
                 </Grid>
               );

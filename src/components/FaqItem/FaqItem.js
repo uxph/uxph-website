@@ -1,12 +1,28 @@
 import React from "react";
-import { Box } from "@material-ui/core";
+import {
+  Box,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+} from "@material-ui/core";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const FaqItem = ({ faq }) => {
-  const { question, answer } = faq;
+  const { question, answer, panel } = faq;
   return (
-    <Box component="div" className="margin-bottom-32">
-      <h3 className="margin-bottom-8 text-dark font-size-24">{question}</h3>
-      {answer}
+    <Box component="div" className="margin-bottom-16">
+      {/* <h3 className="margin-bottom-8 text-dark font-size-24">{question}</h3>
+      {answer} */}
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls={`${panel}-content`}
+          id={`${panel}-header`}
+        >
+          <h4 className="text-dark">{question}</h4>
+        </AccordionSummary>
+        <AccordionDetails className="d-block">{answer}</AccordionDetails>
+      </Accordion>
     </Box>
   );
 };
