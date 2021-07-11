@@ -8,17 +8,19 @@ import {
   Button,
 } from "../components/Components";
 import { Container, Box, Grid } from "@material-ui/core";
-import events from "../data/events";
 
-const EventsPage = () => {
+const EventsPage = ({data}) => {
+
   // const hostFeature = {
   //   heading: "Host your own UXPH event (Coming Soon!)",
   //   description:
   //     "Have an event idea? You can host your own UXPH-sanctioned event!",
   // };
 
-  const featuredEvent = events[0];
-
+  const events = data.allMarkdownRemark.edges;
+  console.log (events);
+  const featuredEvent = events[0].node.frontmatter;
+console.log(featuredEvent);
   return (
     <Layout active="/events">
       <SEO title="Events" />
@@ -73,4 +75,26 @@ const EventsPage = () => {
     </Layout>
   );
 };
+
+export const dataquery = graphql`
+query EventsQuery {
+  allMarkdownRemark(filter: {frontmatter: {type: {eq: "event"}}}) {
+    edges {
+      node {
+        frontmatter {
+          slug
+          title
+          cover
+          date
+          type
+          time
+          venue
+        }
+        html
+      }
+    }
+  }
+}
+`;
+
 export default EventsPage;

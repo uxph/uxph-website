@@ -9,7 +9,8 @@ import {
 } from "@material-ui/icons";
 
 const EventItem = ({ event }) => {
-  const { name, time, date, venue, image_square_url } = event;
+  const { title, time, date, venue, cover } = event.node.frontmatter;
+
   return (
     <Link to="/">
       <Box p={1} borderRadius={8} className="event_item">
@@ -22,11 +23,11 @@ const EventItem = ({ event }) => {
           overflow="hidden"
           mb={2}
         >
-          <img src={image_square_url} className="featured_image" alt={name} />
+          <img src={cover} className="featured_image" alt={title} />
         </Box>
         <Box p={1}>
           <h3 className="margin-bottom-8 font-size-18 line-height-24 event_title">
-            {name}
+            {title}
           </h3>
           <Box component="div" mb={4} className="event_details">
             <Box
