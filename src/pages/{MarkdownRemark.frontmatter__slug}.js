@@ -1,6 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { Layout, Button } from "../components/Components";
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
+
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -8,12 +11,15 @@ export default function Template({
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark;
 
+  const isDesktop = useMediaQuery('(min-width:720px)');
+
+
   const isBlog = frontmatter.type === "blog";
   return (
     <Layout active="/">
       <div className="blog-post-container margin-x-96 margin-y-64">
         <div className="blog-flex-container">
-          {isBlog ? (<div className="author-container">
+          {isDesktop && isBlog ? (<div className="author-container">
             <div className="author-card margin-top-128">
               <div className="author-info">
                 <div className="author-avatar"></div>
@@ -31,7 +37,7 @@ export default function Template({
 ) : (null)}
           <div className="blog-post">
             <h1 className="center">{frontmatter.title}</h1>
-            <p className="margin-bottom-32">{frontmatter.date} • 3 min read</p>
+            <p className="margin-bottom-32">{frontmatter.date} • 3 min read  {!isDesktop ? (<span> • <a href="/">Bae Suzy</a></span>): null}</p>
             
             <div
               className="blog-post-content"
