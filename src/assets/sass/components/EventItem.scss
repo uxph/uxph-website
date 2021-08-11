@@ -1,8 +1,19 @@
+$mobile: 958px;
+
 .event_item {
   background-color: $adaptive-white !important;
   transition: ease all 0.3s !important;
   box-shadow: 0 2px 11px $secondary-shadow-color;
+  cursor: pointer;
+  transition: ease all 0.3s;
+  min-height: 28rem;
+  position: relative;
+  overflow: hidden;
 
+  @media screen and (max-width: $mobile) {
+    width: 87.5vw !important;
+  }
+  
   .featured_image {
     object-fit: cover !important;
     height: 12.5rem !important;
