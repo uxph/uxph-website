@@ -1,66 +1,127 @@
 [
   {
-    "name": "Kringle Garcia",
-    "role": "Volunteers Lead",
-    "image_url": " ",
+    "name": "Ina Davis",
+    "role": "External Growth Lead",
+    "image_url": "../images/organizing_members/ina.png",
     "socials": [
       {
         "icon": "linkedin",
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/angelakristinegarcia/",
+        "url": "https://www.linkedin.com/in/katrinagaildavis/",
         "urlLabel": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "url": "https://twitter.com/_inadavis",
+        "urlLabel": "twitter"
       }
     ],
     "description": [
-      "Kringle is currently working to improve the B2B experience as a UX Architect at Globe Telecom. A nerd at heart, she loves playing D&D and RPGs during her downtime, and dreams of studying abroad to further her education."
+      "Ina is a cognitive scientist turned product designer focused on building solutions for the healthcare space. Her specialty is in distilling complex problems into creative solutions through  data and experimentation.",
+      "In her free time, she loves journaling, playing sports and scrolling through interior design inspiration for homes she pretends she can afford."
     ]
   },
   {
-    "name": "Janyl Tamayo",
-    "role": "Events Lead",
-    "image_url": " ",
+    "name": "Din San Diego",
+    "role": "Internal Growth Lead",
+    "image_url": "../images/organizing_members/din.png",
     "socials": [
       {
         "icon": "linkedin",
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/janyltamayo/",
+        "url": "https://www.linkedin.com/in/claudinesandiego/",
         "urlLabel": "linkedin"
       }
     ],
     "description": [
-      "Janyl is an Experience Designer from Vancouver, currently crafting human-centric experiences at a Fintech startup to make payments simple for SMEs. Gets chatty when she's tea high and is a recovering skincare addict."
+      "Din is a UX Researcher who is passionate about education, designing for inclusivity, and community building. An avid learner, she enjoys ideating alongside teams, pairing non-fiction + fiction books, and creating mixtapes for special occasions"
+    ]
+  },
+  {
+    "name": "Mikka Alcachupas",
+    "role": "Internal Growth Lead",
+    "image_url": "../images/organizing_members/mikka.png",
+    "socials": [],
+    "description": [
+      "Mikka is a Human Resource practitioner currently transitioning as a Product Manager of an HR solution. She is passionate about the world of tech and design and how it makes people's everyday lives a little bit better and beautiful.",
+      "Her interest are aesthetics, brand strategy, and the entertainment industry. She likes to watch choreography videos and anime and paint clouds and sunsets during her free time!"
     ]
   },
   {
     "name": "Chi Señires",
-    "role": "Marketing Lead",
-    "image_url": " ",
+    "role": "Community Lead",
+    "image_url": "../images/organizing_members/chi.png",
     "socials": [
       {
         "icon": "linkedin",
         "name": "Linkedin",
         "url": "https://www.linkedin.com/in/chisenires/",
         "urlLabel": "linkedin"
-      },
-      {
-        "icon": "twitter",
-        "name": "Twitter",
-        "url": "https://www.twitter.com/ChiSenires/",
-        "urlLabel": "twitter"
       }
     ],
     "description": [
       "Chi is a UX Designer, Front-End Web Developer, and a Product Manager.",
-
-      "She's currently working as a Product Manager at Cignal TV. Aside from her day job, she helps organize tech communities like UXPH and Figma PH.",
-
-      "When Chi isn't working, she spends her time riding her bike, scrolling through social media, playing games on her computer or Switch."
+      "She's currently working as a Product Designer at Cignal TV. Aside from her day job, she helps out local tech communities as the Marketing Lead at UXPH and a Figma Community Advocate at Friends of Figma, Philippines.",
+      "She also started a Discord server with her friends called Tambayan 404, where Filipino tech people can hang out, chill, and not talk about work. She loves riding her bike around the city, and plays lots of games on her PC or Switch."
+    ]
+  },
+  {
+    "name": "Kaizen Marce",
+    "role": "Community Lead",
+    "image_url": "../images/organizing_members/kaizen.png",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/kaizen-marce-ba0b40186/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Kaizen is a writer who loves to wear different hats at work and put users first. She has around six years of experience in writing different types of content as well as deeply involving herself within the different stages of product development, from content writing to project coordination and QA & testing. Right now, she's working for an Australian digital agency called MindArc as a Copywriter and Digital Marketing Executive and is also a Marketing Volunteer at UXPH.",
+      "When not in work mode, Kaizen loves to watch anime, read manga, and play games (mostly RPG games on console). She's also learning a new language — Japanese — and has set her eyes on living in Japan soon."
+    ]
+  },
+  {
+    "name": "Charlotte Mae Efren",
+    "role": "Research Lead",
+    "image_url": "../images/organizing_members/charlotte.png",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/charlotteefren/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Charlotte is a Product Designer at First Circle.",
+      "She gets involved in various projects - educational, volunteer groups, and hackathons - trying anything in tech and design that connects her to people.",
+      "Outside work she's learning Japanese and Mandarin, loves Anime, and likes to draw."
+    ]
+  },
+  {
+    "name": "Lindy Hernandez",
+    "role": "Research Lead",
+    "image_url": "../images/organizing_members/lindy.png",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/lindyhernandez/",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Lindy is currently a UX Designer and Researcher at Accenture. She is interested in human-computer interaction research and hopes to explore personal tracking technologies in the future.",
+      "In her free time, she likes to read books, try out new crafts, or discover new TV shows."
     ]
   },
   {
     "name": "MJ Yap",
     "role": "Web Lead",
-    "image_url": " ",
+    "image_url": "../images/organizing_members/mj.png",
     "socials": [
       {
         "icon": "linkedin",
@@ -76,15 +137,32 @@
       }
     ],
     "description": [
-      "MJ is a Computer Science graduate who is the Co-Founder and former Chapter Head of User Experience Society-DLSU.",
-      "When it comes to learning new things and improving his skillsets, he is always eager especially if it means serving the community better.",
-      "He likes physical sports, gym workouts, guitars, cats and memes."
+      "MJ is a Computer Science graduate from De La Salle University and is also one of the Co-founders of User Experience Society-DLSU. He is currently working as a Software Engineer at a Fintech startup company called NextPay, a banking suite for small businesses.",
+      "His passion burns towards learning new things in the world of design and dev. At the same time, he enjoys spreading his knowledge with people who are eager to learn about the field.",
+      "Apart from work, he likes to engage himself in physical sports, gym workouts, guitars, cats and memes."
+    ]
+  },
+  {
+    "name": "Gavin Raine Dizon",
+    "role": "Web Lead",
+    "image_url": "../images/organizing_members/gavin.png",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/gavin-dizon-40b08b190/?originalSubdomain=ph",
+        "urlLabel": "linkedin"
+      }
+    ],
+    "description": [
+      "Gavin is an undergraduate student at De La Salle University taking up Computer Science. He joined the community to learn more about UX and surround himself with passion-driven people who want to improve the community. He joined the web team to enhance his skills in web development.",
+      "In his free time, he plays video games with his friends, reads mangas/ comics, and watches his favorite series."
     ]
   },
   {
     "name": "Reine Bantang",
-    "role": "Creative Lead",
-    "image_url": " ",
+    "role": "Creatives Lead",
+    "image_url": "../images/organizing_members/reine.png",
     "socials": [
       {
         "icon": "linkedin",
@@ -95,29 +173,12 @@
       {
         "icon": "twitter",
         "name": "Twitter",
-        "url": "https://www.twitter.com/reinebantang/",
+        "url": "twitter.com/itsreine_",
         "urlLabel": "twitter"
       }
     ],
     "description": [
-      "Reine is a multimedia producer and occasional host who finds joy in film, theater, cats, and sushi. She is currently working with ABS-CBN Digital, and she is also affiliated with DLSU Radio: Green Giant FM and Juan Gadget."
-    ]
-  },
-  {
-    "name": "Din San Diego",
-    "role": "Research Lead",
-    "image_url": " ",
-    "socials": [
-      {
-        "icon": "linkedin",
-        "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/claudinesandiego/",
-        "urlLabel": "linkedin"
-      }
-    ],
-    "description": [
-      "Din is a content strategist specializing in content development and management. She is currently learning more about UX research within the organization and helping out in the events team!",
-      "An avid learner, she enjoys ideating alongside teams, presenting concepts through decks, pairing non-fiction + fiction books, and creating mixtapes for special occasions."
+      "Reine is a multimedia producer and occasional host who finds joy in film, theater, cats, and sushi. She is currently working with Black Sheep Films and she is also affiliated with DLSU Radio: Green Giant FM and Juan Gadget."
     ]
   }
 ]
