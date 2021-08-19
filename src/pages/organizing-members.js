@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import _ from "lodash";
-import { Layout, SEO, TeamItem, BoardItem } from "../components/Components";
+import { Layout, SEO, TeamItem } from "../components/Components";
 import { Container, Box, Grid, Dialog, DialogContent } from "@material-ui/core";
 import { LinkedIn, Twitter } from "@material-ui/icons";
 import team_leads from "../data/team/team_leads.json";
@@ -130,7 +130,7 @@ const TeamPage = () => {
                       toggleModal();
                     }}
                   >
-                    <BoardItem team={board} toggleModal={toggleModal} />
+                    <TeamItem team={board} toggleModal={toggleModal} />
                   </Box>
                 </Grid>
               );

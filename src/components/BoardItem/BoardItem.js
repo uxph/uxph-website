@@ -1,8 +1,8 @@
 import React from "react";
 import { Box } from "@material-ui/core";
 
-const BoardItem = ({ board }) => {
-  const { image_url, name, role } = board;
+const BoardItem = ({ team }) => {
+  const { image_url, name, role } = team;
 
   return (
     <Box component="div" className="board_item">
