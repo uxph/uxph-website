@@ -17,6 +17,7 @@ import MaterialIcon from "./MaterialIcon";
 import Header from "./Header";
 import HostEventItem from "./HostEventItem";
 import TeamItem from "./TeamItem";
+import BoardItem from "./BoardItem";
 import MissionVissionItem from "./MissionVissionItem";
 import EventItem from "./EventItem";
 
@@ -41,5 +42,6 @@ export {
   EventItem,
   HostEventItem,
   TeamItem,
+  BoardItem,
   MissionVissionItem,
 };

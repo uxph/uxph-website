@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import _ from "lodash";
-import { Layout, SEO, TeamItem } from "../components/Components";
+import { Layout, SEO, TeamItem, BoardItem } from "../components/Components";
 import { Container, Box, Grid, Dialog, DialogContent } from "@material-ui/core";
 import { LinkedIn, Twitter } from "@material-ui/icons";
 import team_leads from "../data/team/team_leads.json";
+import board_members from "../data/team/board_members.json";
 
 const TeamPage = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -119,7 +120,22 @@ const TeamPage = () => {
           <h2 className="font-size-30 margin-bottom-32 margin-top-64 text-center text-dark">
             Advisory Board
           </h2>
-          {/* Advisory board components */}
+          <Grid container spacing={4} justify="center">
+            {board_members.map((board, index) => {
+              return (
+                <Grid item md={4} sm={12} key={index}>
+                  <Box
+                    onClick={() => {
+                      setTeamInfo(board);
+                      toggleModal();
+                    }}
+                  >
+                    <BoardItem team={board} toggleModal={toggleModal} />
+                  </Box>
+                </Grid>
+              );
+            })}
+          </Grid>
         </Container>
       </Box>
     </Layout>

@@ -1,0 +1,6 @@
+{
+  "name": "BoardItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BoardItem.js"
+}
