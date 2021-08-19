@@ -121,16 +121,16 @@ const TeamPage = () => {
             Advisory Board
           </h2>
           <Grid container spacing={4} justify="center">
-            {board_members.map((board, index) => {
+            {board_members.map((team, index) => {
               return (
                 <Grid item md={4} sm={12} key={index}>
                   <Box
                     onClick={() => {
-                      setTeamInfo(board);
+                      setTeamInfo(team);
                       toggleModal();
                     }}
                   >
-                    <BoardItem team={board} toggleModal={toggleModal} />
+                    <BoardItem team={team} toggleModal={toggleModal} />
                   </Box>
                 </Grid>
               );
