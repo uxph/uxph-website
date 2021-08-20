@@ -20,7 +20,6 @@ const TeamPage = () => {
         open={modalOpen}
         onClose={toggleModal}
         maxWidth="md"
-        // style={{ maxWidth: "1024px", width: "100%", margin: "auto" }}
       >
         <DialogContent className="position-relative padding-x-32">
           <Box
@@ -123,7 +122,7 @@ const TeamPage = () => {
           <Grid container spacing={4} justify="center">
             {board_members.map((team, index) => {
               return (
-                <Grid item md={4} sm={12} key={index}>
+                <Grid item md={4} sm={12} key={index} >
                   <Box
                     onClick={() => {
                       setTeamInfo(team);
